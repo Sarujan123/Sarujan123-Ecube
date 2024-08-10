@@ -556,8 +556,8 @@ font-weight: bolder;
 
 .vertical-navbar {
     position: fixed;
-    left: 8%;
-    top: 64%;
+    left: 5%;
+    top: 55%;
     transform: translateY(-50%);
 }
 
@@ -793,7 +793,28 @@ font-weight: bolder;
 }
 
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .vertical-navbar {
+        left: 4%;
+        top: 65%;
+        transform: translateY(-50%);
 
+    }
+
+    .nav-dot {
+        width: 12px;
+        height: 12px;
+    }
+
+    .nav-dot.hover {
+        width: 16px;
+        height: 16px;
+        margin-left: -2px;
+        background-color: rgb(0, 0, 0); 
+
+    }
+
+}
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
     .vertical-navbar {
@@ -8874,7 +8895,7 @@ font-weight: Regular;
     }
 
   .text-section .text {
-    margin-top: -10px;
+    margin-top: 20px !important;
     font-family: Poppins;
     font-weight: bold;
   }
@@ -8901,7 +8922,7 @@ font-weight: Regular;
   .lastform .form-section form {
     display: flex;
     position: relative;
-    margin-bottom: 15px;
+    margin-top: 20px;
     border-radius: 50px;
     background-color: transparent;
     padding: 2px;
