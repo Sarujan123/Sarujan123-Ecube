@@ -64,14 +64,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
- // Other carousal //
- const scrollingContent = document.querySelector('.scrolling-content');
-
-scrollingContent.addEventListener('animationiteration', () => {
-    scrollingContent.style.animation = 'none';
-    scrollingContent.offsetHeight; // Trigger reflow
-    scrollingContent.style.animation = null;
-});
 
 
 
@@ -170,46 +162,5 @@ function updateDots(activeIndex) {
             });
         });
     });
-
-
-// card pagination //
-document.addEventListener('DOMContentLoaded', function() {
-    const carouselContainer = document.querySelector('.carousel-container');
-    const carouselCards = document.querySelectorAll('.carousel-card');
-    
-    // Clone cards for infinite effect
-    carouselCards.forEach(card => {
-        carouselContainer.appendChild(card.cloneNode(true));
-    });
-
-    let index = 0;
-
-    function scrollCarousel() {
-        index++;
-        if (index >= carouselCards.length) {
-            index = 0;
-            carouselContainer.style.transition = 'none';
-            carouselContainer.style.transform = 'translateX(0)';
-            setTimeout(() => {
-                carouselContainer.style.transition = 'transform 0.5s ease-in-out';
-                index++;
-                carouselContainer.style.transform = `translateX(-${index * 100 / (carouselCards.length / 4)}%)`;
-            }, 50);
-        } else {
-            carouselContainer.style.transform = `translateX(-${index * 100 / (carouselCards.length / 4)}%)`;
-        }
-    }
-
-    setInterval(scrollCarousel, 3000); // Adjust interval as needed
-});
-
-
-
-
-
-
-
-
-
 
 
