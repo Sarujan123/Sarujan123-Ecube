@@ -1,7 +1,6 @@
 
 
 
-// navbar //
 document.addEventListener("DOMContentLoaded", function() {
     const navDots = document.querySelectorAll(".nav-dot");
     const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
