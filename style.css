@@ -59,7 +59,6 @@ html {
                       radial-gradient(at 67% 32%, hsla(274, 100%, 11%, 1) 0px, transparent 50%),
                       radial-gradient(at 100% 62%, hsla(274, 100%, 36%, 0.89) 0px, transparent 50%); 
     box-sizing: border-box;  
-    position: relative; 
     display: block; 
     overflow-x: hidden;
     overflow-y: hidden;
@@ -1089,11 +1088,6 @@ border: #00000000;
 
 
 @media only screen and (max-width: 320px) {
-
-#section1{
-height: 100vh;
-}
-
         .text-section h1{
           font-size: 3.3em !important;
           margin-left: -5px !important;
@@ -1123,8 +1117,8 @@ height: 100vh;
         
             .image-section .imgone {
                 width: 130% !important;
-                margin-left: -70px !important;
-                margin-top: -300px !important;
+                margin-left: -50px !important;
+                margin-top: -550px !important;
                 opacity: 0.2 !important;
               }
     
@@ -1135,12 +1129,6 @@ height: 100vh;
                 width: 200% !important;
             }
 
-            /* .partners-section h5 {
-    position: relative;
-    color: white;
-    display: inline-block;
-    margin-top: -60px   !important;
-} */
     
     
         .partners-section h5::after {
@@ -1159,7 +1147,7 @@ height: 100vh;
             
             
             .carousel {
-                margin-top: 200px !important;
+                margin-top: 40px !important;
                 margin-left: -70px !important;
                 width: 230% !important; /* Adjusted for responsiveness */
             }
@@ -1187,7 +1175,7 @@ height: 100vh;
           width: 150px !important;
           height: 27px !important;
           margin-left: 80px !important;
-          margin-top: 280px !important;
+          margin-top: 100px !important;
           position: absolute !important;
         }
     
@@ -1196,8 +1184,7 @@ height: 100vh;
             width: 160px !important;
             height: 27px !important;
             margin-left: 80px !important;
-            margin-top: 380px !important;
-            position: absolute !important;
+            margin-top: 225px !important;
           }
     
       }
@@ -1315,126 +1302,112 @@ height: 100vh;
   
   /* 375px to 425px */
   @media screen and (min-width: 375px) and (max-width: 424px) {
-   #section1{
-height: 100vh;
-}
 
-        .text-section h1{
-          font-size: 3.5em !important;
-          margin-left: 15px !important;
+
+    .text-section h1{
+        font-size: 3.3em !important;
+        margin-left: 20px !important;
+      }
+  
+      .text-section h2 {
+          font-size: 2.7em !important;
+          margin-left: 35px !important;
         }
-    
-        .text-section h2 {
-            font-size: 2.5em !important;
-            margin-left: 25px !important;
+      
+      .text-section h3 {
+        font-size: 1.8em !important;
+        margin-left: 100px !important;
+        margin-top: 120px !important;
+
+      }
+  
+      .border-text {
+          background: linear-gradient(to right, #c3376300, #9f3e5d00) !important;
+          -webkit-text-fill-color: transparent !important;
+          -webkit-background-clip: text !important;
+          -webkit-text-stroke: 2px#9370D9 !important; 
+          font-size: 50px !important;
+          font-weight: bold; 
+          margin-left: -10px !important;
           }
-        
-        .text-section h3 {
-          font-size: 2em !important;
-          margin-left: 90px !important;
-          margin-top: 170px !important;
+      
+          .image-section .imgone {
+              width: 100% !important;
+              margin-left: -10px !important;
+              margin-top: -500px !important;
+              opacity: 0.2 !important;
+            }
+  
+            .partners-title {
+              font-size: 18px;
+              right: 80px !important;
+              top: 190px !important;
+              width: 200% !important;
+          }
 
-        }
-    
-        .border-text {
-            background: linear-gradient(to right, #c3376300, #9f3e5d00) !important;
-            -webkit-text-fill-color: transparent !important;
-            -webkit-background-clip: text !important;
-            -webkit-text-stroke: 2px#9370D9 !important; 
-            font-size: 58px !important;
-            font-weight: bold; 
-            margin-left: -10px !important;
-            }
-        
-            .image-section .imgone {
-                width: 120% !important;
-                margin-left: -70px !important;
-                margin-top: -360px !important;
-                opacity: 0.2 !important;
-                position: absolute !important;
-              }
-    
-              .partners-title {
-                font-size: 22px;
-                right: 60px !important;
-                top: 280px !important;
-                width: 200% !important;
-            }
-
-            /* .partners-section h5 {
-    position: relative;
-    color: white;
-    display: inline-block;
-    margin-top: -60px   !important;
-} */
-    
-    
-        .partners-section h5::after {
-            height: 150px !important;
-            width: 1.5% !important;
-            right: 90px !important;
-            rotate: 90deg !important;
-            margin-top: -30px !important;
-            display: none;
-        } 
-    
-        .col-md-8{
-            height: 30px;
-            margin-left: -40px;
-            }
-            
-            
-            .carousel {
-                margin-top: 300px !important;
-                margin-left: -70px !important;
-                width: 230% !important; /* Adjusted for responsiveness */
-            }
-            
-            .carousel-track {
-            display: flex;
-            animation: scroll 40s linear infinite; 
-            
-            
-            }
-            
-            .carousel-track img {
-                display: inline-block;
-                margin-right: 40px;
-            }
-            
-            .carousel-item {
-                display: inline-block;
-            }
-    
-    
-        
-        .button-group .btn-primary{
+  
+  
+      .partners-section h5::after {
+          height: 150px !important;
+          width: 1.5% !important;
+          right: 90px !important;
+          rotate: 90deg !important;
+          margin-top: -30px !important;
+          display: none;
+      } 
+  
+      .col-md-8{
+          height: 30px;
+          margin-left: -40px;
+          }
+          
+          
+          .carousel {
+              margin-top: 10px !important;
+              margin-left: -70px !important;
+              width: 230% !important; /* Adjusted for responsiveness */
+          }
+          
+          .carousel-track {
+          display: flex;
+          animation: scroll 40s linear infinite; 
+          
+          
+          }
+          
+          .carousel-track img {
+              display: inline-block;
+              margin-right: 40px;
+          }
+          
+          .carousel-item {
+              display: inline-block;
+          }
+  
+  
+      
+      .button-group .btn-primary{
+        font-size: 13px;
+        width: 150px !important;
+        height: 27px !important;
+        margin-left: 110px !important;
+        margin-top: 30px !important;
+        position: absolute !important;
+      }
+  
+      .btn.btn-secondary {
           font-size: 13px;
-          width: 150px !important;
+          width: 160px !important;
           height: 27px !important;
           margin-left: 110px !important;
-          margin-top: 300px !important;
-          position: absolute !important;
+          margin-top: 160px !important;
         }
-    
-        .btn.btn-secondary {
-            font-size: 13px;
-            width: 160px !important;
-            height: 27px !important;
-            margin-left: 110px !important;
-            margin-top: 400px !important;
-            position: absolute !important;
-          }
-    
-      }
+  
+    }
     
   
   /* 425px to 768px */
   @media screen and (min-width: 425px) and (max-width: 767px) {
-    #section1{
-        height: 100vh;
-        }
-        
                 .text-section h1{
                   font-size: 4em !important;
                   margin-left: 15px !important;
@@ -1547,10 +1520,7 @@ height: 100vh;
   
 
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    #section1{
-        height: 100vh;
-        }
-        
+
                 .text-section h1{
                   font-size: 5em !important;
                   margin-left: 130px !important;
@@ -2659,8 +2629,6 @@ line-height: 40px;
     #section8{
         height: 100vh !important;
     }
-
-
         /* Your CSS for screens up to 320px wide */
         .text-section h2 span.one {
             font-size: 4.4rem !important;
@@ -2700,38 +2668,53 @@ line-height: 40px;
         }
   
   @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #section8{
+        height: 100vh !important;
+    }
+    
+    
     .text-section h2 span.one {
-        font-size: 5rem;
+        font-size: 6rem !important;
         font-family: Poppins;
         font-weight: bold;
         color: #ffffff;
-        margin-top: 110px;
-        }
+        margin-top: 300px !important;
+        margin-left: -100px !important;
+        position: absolute;
+        width: 800% !important;
+
+
+    }
+
         
-        h2.two {
-        font-size: 5rem; 
+    .text-section  h2.two {
+        font-size: 5rem !important; 
         font-family: Poppins;
         font-weight: bold;
-        margin-top: -20px ;
+        margin-top: 200px !important;
         background: transparent; 
         -webkit-text-fill-color: transparent; 
         -webkit-background-clip: text;
         -webkit-text-stroke: 2px #ffffff; 
+        margin-left: 160px !important;
+        width: 800% !important;
+
         }
         
         .image-section .imgtwo{
-        width: 70%;
-        margin-left: 60px;
-        margin-top: 20px;
+        width: 75% !important;
+        margin-left: 80px !important;
+        margin-top: 350px !important;
         }
         
         .text-section h4.three {
-        font-size: 1rem;
+        font-size: 1.1rem !important;
         font-family: Poppins;
         font-weight: bold;
         color: rgba(255, 255, 255, 1);
-        margin-top: 10px ;
-        margin-left: 105px;
+        margin-top: 30px ;
+        margin-left: 70px !important;
         font-weight: 400;
         word-spacing: 0.6px;
         line-height: 40px;
@@ -2753,19 +2736,21 @@ line-height: 40px;
         .input-field textarea::placeholder {
             color: #ffffff;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 0.9rem;
+            font-size: 1rem;
         }
         
         .input-field {
             position: relative;
-            margin-bottom: 15px;
+            margin-bottom: 25px !important;
             border-radius: 50px;
-            margin-left: 90px;
-            margin-right: -90px;
+            margin-left: 60px !important;
+            margin-right: 150px !important;
+            margin-top: 10px !important;
             background-color: transparent;
             padding: 2px;
             border: 1px solid #D1B9FF;
-            height: 40px;
+            height: 50px;
+            width: 110% !important;
         }
         
         .input-field input,
@@ -2799,6 +2784,7 @@ line-height: 40px;
         .comments {
             height: 1px; 
             resize: vertical;
+            
         }
         
         
@@ -2812,19 +2798,20 @@ line-height: 40px;
         
         .but {
             color: #fff;
-            padding: 10px 10px;
+            padding: 10px 130px !important;
+            position: absolute;
             text-decoration: none;
             border-radius: 5px;
-            margin-top: -330px;
-            margin-left: 375px;
-            display: flex;
-            align-items: center;
+            margin-top: -60px !important;
+            margin-left: -350px !important;
+
         }
-        
-        
+                
         .but .btn {
             display: flex;
+            font-size: 15px !important;
             align-items: center;
+            width: 60% !important;
         }
         .but .btn:hover {
             border-radius: 20px; 
@@ -2838,7 +2825,7 @@ line-height: 40px;
             width: 18px; 
             height: auto;
         }
-    }
+  }
   
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
     #section8{
@@ -3384,11 +3371,6 @@ transform: scale(1.1);
 /* For screens up to 320px */
 
 @media screen and (max-width: 320px) {
-
-#section2{
-    height: 100vh !important;
-}
-
     .image-section .imgthree {
         width: 120% !important;
         margin-left: -10px !important;
@@ -3398,7 +3380,7 @@ transform: scale(1.1);
     .text-section h2.four  {
         margin-left: 50px !important;
         font-size: 4.2em !important;
-        margin-top: -250px !important;
+        margin-top: -400px !important;
         width: 400px;
     }
     .text-section h2 .arttwo {
@@ -3407,7 +3389,7 @@ transform: scale(1.1);
         right: 30%;
     }
     .text-section h2.five span {
-        margin-left: 90px !important;
+        margin-left: 100px !important;
         font-size: 2.2em !important;
         margin-top: -10px !important;
     }
@@ -3790,9 +3772,7 @@ transform: scale(1.1);
 */
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
-    #section2{
-        height: 100vh !important;
-    }
+
     
         .image-section .imgthree {
             width: 120% !important;
@@ -3803,7 +3783,7 @@ transform: scale(1.1);
         .text-section h2.four  {
             margin-left: 70px !important;
             font-size: 4.2em !important;
-            margin-top: -350px !important;
+            margin-top: -450px !important;
             width: 400px;
         }
         .text-section h2 .arttwo {
@@ -3996,9 +3976,7 @@ transform: scale(1.1);
 
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-    #section2{
-        height: 100vh !important;
-    }
+
     
         .image-section .imgthree {
             width: 120% !important;
@@ -4203,9 +4181,7 @@ transform: scale(1.1);
 /* For screens between 769px and 1024px */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    #section2{
-        height: 100vh !important;
-    }
+
     
     .image-section .imgthree {
         width: 250% !important;
@@ -5253,10 +5229,6 @@ font-weight: bold;
 /* Media Queries */
 @media screen and (max-width: 320px) {
 
-#section3{
-    height: 100vh !important;
-}
-
     .text-section .impcontentone {
         font-size: 45px !important;
         margin-top: 160px !important;
@@ -5328,9 +5300,7 @@ font-weight: bold;
 }
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
-    #section3{
-        height: 100vh !important;
-    }
+
 
     .text-section .impcontentone {
         font-size: 55px !important;
@@ -5474,9 +5444,6 @@ font-weight: bold;
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-    #section3{
-        height: 100vh !important;
-    }
 
     .text-section .impcontentone {
         font-size: 55px !important;
@@ -5621,9 +5588,6 @@ font-weight: bold;
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-    #section3{
-        height: 100vh !important;
-    }
 
     
     .text-section .impcontentone {
@@ -5695,9 +5659,7 @@ font-weight: bold;
 
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    #section3{
-        height: 100vh !important;
-    }
+
    
     .text-section .impcontentone{
         margin-top: 40px !important;
@@ -6155,9 +6117,6 @@ font-weight: bold;
 /* Media queries */
 @media screen and (max-width: 320px) {
 
-    #section4{
-        height: 100vh !important;
-    }
 
     .image-section .imgfour {
         width: 140% !important;
@@ -6567,9 +6526,6 @@ font-weight: bold;
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
 
-#section4{
-    height: 100vh !important;
-}
 
     .image-section .imgfour {
         width: 100% !important;
@@ -6776,10 +6732,7 @@ font-weight: bold;
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
 
-    #section4{
-        height: 100vh !important;
-    }
-
+ 
     .image-section .imgfour {
         width: 130% !important;
         margin-left: 0;
@@ -6989,10 +6942,6 @@ font-weight: bold;
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-
-    #section4{
-        height: 100vh !important;
-    }
 
     .image-section .imgfour {
         width: 160%;
@@ -7213,10 +7162,7 @@ font-weight: bold;
 
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    #section4{
-        height: 100vh !important;
-    }
-    
+
     .image-section .imgfour {
         width: 70%;
         height: auto;
@@ -10149,13 +10095,15 @@ For screens between 425px and 768px
     margin-left: 55px !important;
     margin-top: 100px;
     position: absolute;
+    width: 600px !important;
 }
 
 .text-section .digitlthree {
     font-size: 4rem !important;
-    margin-left: 30px !important;
+    margin-left: -130px !important;
     margin-top: 420px !important;
     position: absolute !important;
+    width: 600px !important;
 }
 
 .pricing-card h2 {
@@ -10187,9 +10135,9 @@ For screens between 425px and 768px
 }
 
 .image-section .imgfive {
-    width: 85%;
-    margin-top: 110px;
-    margin-left: 35px;
+    width: 85% !important;
+    margin-top: 110px !important;
+    margin-left: 35px !important;
     position: absolute;
 
 
@@ -12299,18 +12247,20 @@ font-weight: Regular;
     }    
   
   @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+
     .swiper-container {
         width: 100%;
         height: 500px;
         perspective: 3000px;
-        margin-top: 70px !important;
+        margin-top: 180px !important;
         margin-left: -5px;
       }
       
       .swiper-slide {
         background-position: center;
         background-size: cover;
-        width: 1100px;
+        width: 900px !important;
         height: 420px;
         transform-style: preserve-3d;
         transition: transform 0.5s;
@@ -12334,6 +12284,7 @@ font-weight: Regular;
         top: 45%;
         right: 69.5%;
         transform: translate(-50%, 45%);
+        display: none !important;
         }
     
     .quotation1{
@@ -12346,8 +12297,8 @@ font-weight: Regular;
     }
     
     .quotation2{
-        margin-left: 600px;
-        margin-top: 230px;
+        margin-left: 460px;
+        margin-top: 150px;
         position: absolute;
         width: 100px;
         height: 120px;
@@ -12369,7 +12320,7 @@ font-weight: Regular;
     .left p{
     margin-top: 80px;
     margin-left: 150px;
-    font-size: 11px;
+    font-size: 8px;
     color: white;
     font-family: Poppins;
     font-weight: SemiBold;
@@ -12377,15 +12328,15 @@ font-weight: Regular;
     }
     
     .right .Robert{
-     width: 90%;
-     margin-left: 60px;
-     margin-top: -10px;
+     width: 80% !important;
+     margin-left: -10px !important;
+     margin-top: 50px !important;
     }
     
     .rating {
         position: absolute;
-        top: 95px;
-        left: -15px;
+        top: 93px;
+        left: -55px;
         z-index: 2;
         width: 45%;
         display: flex;
@@ -12400,7 +12351,7 @@ font-weight: Regular;
     }
     
     .starback {
-        margin-left: -30px;
+        margin-left: -70px;
         margin-top: 100px;
         width: 45%;
         position: absolute;
@@ -12409,22 +12360,24 @@ font-weight: Regular;
     
     
     .head{
-    margin-left: 110px;
+    margin-left: 1px;
     margin-top: -40px;
     color: white;
     font-size: 1.9rem;
     position: absolute;
     font-family: Poppins;
     font-weight: bold;
+    width: 500% !important;
     }
     
     .tail{
-    margin-left: 140px;
+    margin-left: 30px;
     font-size: 14px;
     color: white;
     position: absolute;
     font-family: Poppins;
     font-weight: Regular;
+    width: 500% !important;
     }
     
       .swiper-slide-active {
@@ -13089,225 +13042,119 @@ line-height: 20px;
 
   @media screen and (max-width: 320px) {
 
-    #section9{
-        height: 65vh !important;
-    }
-
-    .last {
-        display: flex;
-      }
-      
-      .image-section .imgseven {
-        width: 1200% !important;
-        height: auto;
-        margin-left: 100px !important; 
-        margin-top: -10px !important;
-        position: absolute;
-      }
-      
-      .text h1 .artseven{
-        height: 41px;
-        position: absolute;
-        top: 22.7%;
-        right: 35.8%;
-        transform: translate(-50%, 40%);
+        #section9 {
+            height: 65vh; /* Adjust as needed for small screens */
         }
-    
-      .text-section .text {
-        margin-top: 40px !important;
-        margin-left: 700px !important;
-        font-family: Poppins;
-        font-weight: bold;
-        position: absolute !important;
-      }
-      
-      .text-section h1.Our {
-        font-size: 5rem;
-        font-family: Poppins;
-        font-weight: bold;
-        margin-left: -190px !important;
-      }
-      
-      .text-section h2 .Newslettertwo {
-        font-size: 5rem;
-        background: linear-gradient(to right, #c3376300, #9f3e5d00);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        -webkit-text-stroke: 2px #ffffff; 
-        margin-left: -240px !important;
-        margin-top: 55px;
-        font-family: Poppins;
-        font-weight: bold;
-        position: absolute;
-      }
-      
-      .lastform .form-section form {
-        display: flex;
-        position: absolute;
-        margin-top: 200px;
-        margin-left: 440px;
-        border-radius: 50px;
-        background-color: transparent;
-        padding: 2px;
-        border: 1px solid #D1B9FF;
-        height: 40px;
-        width: 1300% !important;
-      }
-      
-      .lastform .form-section input {
-        background-color: transparent;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 50px;
-        transition: background-color 0.3s ease, border-color 0.3s ease;
-        outline: none;
-        padding-left: 40px;
-        height: 100%; 
-        box-sizing: border-box; 
-        color: rgb(255, 255, 255) !important; 
-    
-      }
-    
-    
-      
-      .lastform .lastbutton {
-        background-color: #7900D1;
-        color: #ffffff;
-        padding: 4px 35px 4px 50px;
-        border-radius: 4000px;
-        font-size: 12px;
-        transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        font-family: Poppins;
-        border: none;
-        font-weight: medium;
-        margin-left: 220px;
-        position: relative;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        margin-left: 180px !important;
-      }
-      
-      .lastform .lastbutton .sign {
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        left: 15px;
-      }
-      
-      .lastform .lastbutton:hover {
-        border-color: transparent;
-        border-radius: 20px;
-        background-color: #9349c4;
-        color: #ffffff;
-        transform: scale(1.1);
-      }
-    
-      .footer {
-        background-color: #333;
-        color: #fff;
-        padding: 50px 30px;
-        font-size: 12px !important;
-        height: 45vh; /* Adjust as needed */
-        margin-top: -50px;
-        box-shadow: 0 9px 8px rgba(0, 0, 0, 0.68) !important;
-    }
-    
-    .footer .container {
-        max-width: 1200px; /* Maximum width of the footer content */
-        margin: -10px auto; /* Center align the footer content */
-    }
-    
-    .footer .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    .footer-col {
-        margin-bottom: 20px; /* Space between columns */
-    }
+        
+        .last {
+            display: block; /* Adjust display for small screens */
+        }
+        
+        .image-section .imgseven {
+            width: 140% !important; /* Ensure images fit within small screens */
+            margin-left: -60px !important; /* Remove margin for small screens */
+            margin-top: 60px !important;
+            opacity: 0.2 !important;
+            position: absolute;
+        }
+        
+        .text-section .text {
+            margin-top: 150px !important; /* Adjust margins for small screens */
+            margin-left: 10px !important;
+            width: 100%; /* Adjust width for small screens */
+        }
+        
+        .text-section h1.Our {
+            font-size: 4rem !important; /* Adjust font size for small screens */
+            margin-left: 0 !important;
+        }
+        
+        .text-section h2 .Newslettertwo {
+            font-size: 3rem; /* Adjust font size for small screens */
+            margin-left: 0 !important;
+            margin-top: 40px;
+        }
+        
+        .lastform .form-section form {
+            margin-top: 60px;
+            margin-left: 10px;
+            width: 90% !important; /* Ensure form fits within small screens */
+        }
+        
+        .lastform .lastbutton {
+            margin-left: 50px !important;
+            margin-top: 70px !important;
+            padding: 6px 60px !important; /* Adjust padding for small screens */
+            position: absolute;
+        }
+        
+        .footer {
+            padding: 20px 10px; /* Adjust padding for small screens */
+            font-size: 10px !important; /* Adjust font size for small screens */
+            height: 45vh !important; /* Adjust height for small screens */
+        }
+        
+        .footer .container {
+            margin: 20px 10px !important; /* Adjust margins for small screens */
+        }
+        
+        .footer-col {
+            margin-bottom: 40px !important; /* Adjust spacing for small screens */
+        }
 
-    .footer-columnone{
-        width: 300% !important;
-    }
+        .footer-columntwo, .footer-columnfour{
+            display: none;
+        }
+        
 
-    .footer-columnthree{
-        width: 300% !important;
-    }
-    
-    .footer-col h4 {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-    
-    .footer-col p, .footer-col ul {
-        font-size: 12px;
-        line-height: 1.6;
-    }
-    
-    .footer-col a {
-        color: #ffffff; /* Link color */
-        text-decoration: none;
-    }
-    
-    .footer-col a:hover {
-        text-decoration: underline; /* Underline on hover */
-    }
-    
-    .footer-col .logo-link {
-        display: block;
-        margin-bottom: 20px;
+        .footer-columnone{
+            margin-left: -130px !important;
+            margin-top: 20px !important;
+        }
 
-    }
-    
-    .img .logoone {
-        width: 100% !important; /* Responsive logo width */
-        max-width: 200%; /* Maximum width of the logo */
-    }
-    
-    .footer-col .social-links {
-        display: flex;
-        gap: 15px; /* Space between social icons */
-        height: 30px !important;
-        width: 150px !important;
-        margin-left: 170px !important;
-    }
-    
-    .footer-col .social-links a {
-        color: #ffffff;
-        font-size: 18px;
+        .footer-columnthree{
+            margin-left: -190px !important;
 
-    }
-    
-    .footer-col .social-links a:hover {
-        color: #00aaff; /* Color change on hover */
-    }
-    
-    .footer-col ul {
-        list-style-type: none; /* Remove default list style */
-        padding: 0;
-    }
-    
-    .footer-col ul a {
-        display: block;
-        margin-bottom: 10px; /* Space between links */
-        font-size: 12px;
-    }
-    
-    .footer-col ul a:hover {
-        text-decoration: underline;
-    }
+        }
 
-.footer-columntwo, .footer-columnfour{
-    display: none;
-}
 
-}
+        .footer-col h4 {
+            font-size: 14px; /* Adjust font size for small screens */
+            margin-top: 150px !important;
+            margin-left: 100px !important;
+
+        }
+        
+        .footer-col p {
+            font-size: 13px; /* Adjust font size for small screens */
+            width: 100% !important; /* Ensure text fits within small screens */
+            text-align: center !important;
+            
+        }
+
+        .footer-col ul {
+            font-size: 14px; /* Adjust font size for small screens */
+            width: 100% !important; /* Ensure text fits within small screens */
+            text-align: center !important;
+
+        }
+        
+        .footer-col .social-links {
+            width: auto; /* Adjust width for small screens */
+            margin-left: 0 !important;
+        }
+
+        .footer-col img {
+            width: 50% !important; /* Responsive logo width */
+            max-width: 200% !important; /* Maximum width of the logo */
+            margin-left: 250px !important;
+        }
+    }
+    
 
   
-  /* For screen widths between 321px and 375px */
-  @media screen and (min-width: 321px) and (max-width: 375px) {
+
+  /* @media screen and (min-width: 321px) and (max-width: 375px) {
     .last {
         display: block;
       }
@@ -13460,543 +13307,236 @@ line-height: 20px;
 
   
     }
-  
+   */
+
+
   /* For screen widths between 375px and 425px */
-  @media screen and (min-width: 376px) and (max-width: 425px) {
-    .last {
-        display: block;
-      }
-    
-      .image-section .imgseven {
-        width: 90% !important;
-        margin-left: 20px !important;
-        margin-top: 70px !important;
-        opacity: 0.3;
-      }
-    
-      .text-section .text {
-        margin-top: 10px !important;
-      }
-    
-      .text-section h1.Our {
-        font-size: 3.5rem !important;
-        margin-top: -270px !important;
-        margin-left: 10px !important;
-        position: absolute;
-  
-      }
-  
-      .text h1 .artseven{
-          height: 30px;
-          position: absolute;
-          top: 10%;
-          right: 23%;
-          transform: translate(-50%, 40%);
-          }
-    
-      .text-section h2 .Newslettertwo {
-        font-size: 3.2rem !important;
-        position: absolute;
-        margin-left: 80px !important;
-        margin-top: -380px !important;
-      }
-    
-      .lastform .form-section form {
-        width: 90% !important;
-        position: absolute;
-        margin-top: -150px;
-        margin-left: 20px;
-  
-      }
-    
-      .lastform .lastbutton {
-        margin-left: 80px !important;
-        padding: 0 70px !important;
-        margin-top: 60px !important;
-        width: 50% !important;
-        height: 80% !important;
-        position: absolute;
-      }
-      
-      .lastform .lastbutton .sign {
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        left: 45px !important;
-      }
-      
-      .lastform .lastbutton:hover {
-        border-color: transparent;
-        border-radius: 20px;
-        background-color: #9349c4;
-        color: #ffffff;
-        transform: scale(1.1);
-      }
-    
-      .footer {
-          background-color: #22003bb6 !important;
-          color: #fff;
-          display: flex;
-          height: 300px !important;
-          width: 135%;
-          margin-left: -80px;
-          position: absolute;
-        }
-     
-  
-        .footer-columnone {
-          margin-left: 30px !important;
-          margin-top: 40px !important;
-          position: absolute !important;
-        }
-  
-      .footer-columnone .logo-link{
-        margin-left: -40px !important;
-        margin-top: -30px !important;
-        width: 40% !important;
-      }
-    
-      .footer-columnone p {
-        margin-left: 50px !important;
-        text-align: center;
-        margin-top: 10px !important;
-        font-size: 11px;
-      }
-  
-      .social-links {
-          justify-content: center;
-          margin-left: 150px !important;
-          margin-top: -15px !important;
-      }
-      
-      .social-links a {
-          padding: 0 10px;
-          margin-top: -5px;
-        }
-      
-
-  
-  
-        .footer-columnthree{
-          margin-top: 170px !important;
-          margin-left: 10px !important;
-          width: 85% !important;
-          text-align: center;
-          position: absolute !important;
-        }
-  
-      .footer-columnthree h4 {
-        margin-left: -120px;
-        margin-top: 50px;
-        font-size: 13px !important;
-        text-align: center;
-        position: absolute;
-        display: none;
-      }
-
-
-      .footer-columnthree ul  a {
-        line-height: 11.5px;
-        font-size: 11px !important;
-        margin-left: -5px;
-        margin-top: 10px;
-        color: white;
-        width: 100% !important;
-        
-      }
-    
-  
-
-      .footer-columntwo, .footer-columnfour {
-       display: none !important;
-    
-      }
-
-
-  
+  @media screen and (min-width: 375px) and (max-width: 424px) {
+    #section9 {
+        height: 65vh; /* Adjust as needed for small screens */
     }
+    
+    .last {
+        display: block; /* Adjust display for small screens */
+    }
+    
+    .image-section .imgseven {
+        width: 140% !important; /* Ensure images fit within small screens */
+        margin-left: -60px !important; /* Remove margin for small screens */
+        margin-top: 60px !important;
+        opacity: 0.2 !important;
+        position: absolute;
+    }
+    
+    .text-section .text {
+        margin-top: 150px !important; /* Adjust margins for small screens */
+        margin-left: 10px !important;
+        width: 100%; /* Adjust width for small screens */
+    }
+    
+    .text-section h1.Our {
+        font-size: 4rem !important; /* Adjust font size for small screens */
+        margin-left: 0 !important;
+    }
+    
+    .text-section h2 .Newslettertwo {
+        font-size: 3.5rem; /* Adjust font size for small screens */
+        margin-left: 0 !important;
+        margin-top: 40px;
+    }
+    
+    .lastform .form-section form {
+        margin-top: 60px;
+        margin-left: 10px;
+        width: 105% !important; /* Ensure form fits within small screens */
+    }
+    
+    .lastform .lastbutton {
+        margin-left: 70px !important;
+        margin-top: 70px !important;
+        padding: 6px 60px !important; /* Adjust padding for small screens */
+        position: absolute;
+    }
+    
+    .footer {
+        padding: 20px 10px; /* Adjust padding for small screens */
+        font-size: 10px !important; /* Adjust font size for small screens */
+        height: 45vh !important; /* Adjust height for small screens */
+    }
+    
+    .footer .container {
+        margin: 20px 10px !important; /* Adjust margins for small screens */
+    }
+    
+    .footer-col {
+        margin-bottom: 40px !important; /* Adjust spacing for small screens */
+    }
+
+    .footer-columntwo, .footer-columnfour{
+        display: none;
+    }
+    
+
+    .footer-columnone{
+        margin-left: -120px !important;
+        margin-top: 20px !important;
+    }
+
+    .footer-columnthree{
+        margin-left: -220px !important;
+
+    }
+
+
+    .footer-col h4 {
+        font-size: 14px; /* Adjust font size for small screens */
+        margin-top: 150px !important;
+        margin-left: 120px !important;
+
+    }
+    
+    .footer-col p {
+        font-size: 13px; /* Adjust font size for small screens */
+        width: 100% !important; /* Ensure text fits within small screens */
+        text-align: center !important;
+        
+    }
+
+    .footer-col ul {
+        font-size: 14px; /* Adjust font size for small screens */
+        width: 100% !important; /* Ensure text fits within small screens */
+        text-align: center !important;
+
+    }
+    
+    .footer-col .social-links {
+        width: auto; /* Adjust width for small screens */
+        margin-left: 0 !important;
+    }
+
+    .footer-col img {
+        width: 50% !important; /* Responsive logo width */
+        max-width: 200% !important; /* Maximum width of the logo */
+        margin-left: 260px !important;
+    }
+}
   
   /* For screen widths between 425px and 768px */
-  @media screen and (min-width: 426px) and (max-width: 768px) {
+  @media screen and (min-width: 425px) and (max-width: 767px) {
+    #section9 {
+        height: 65vh; /* Adjust as needed for small screens */
+    }
+    
     .last {
-        display: block;
-      }
+        display: block; /* Adjust display for small screens */
+    }
     
-      .image-section .imgseven {
-        width: 70% !important;
-        margin-left: 90px !important;
-        margin-top: 70px !important;
-        opacity: 0.3;
-      }
-    
-      .text-section .text {
-        margin-top: -80px !important;
-        /* position: absolute !important; */
-      }
-    
-      .text-section h1.Our {
-        font-size: 5rem !important;
-        margin-top: -320px !important;
-        margin-left: 10px !important;
-        position: absolute;
-  
-      }
-  
-      .text h1 .artseven{
-          height: 30px;
-          position: absolute;
-          top: 10%;
-          right: 23%;
-          transform: translate(-50%, 40%);
-          }
-    
-      .text-section h2 .Newslettertwo {
-        font-size: 5rem !important;
-        position: absolute;
-        margin-left: 140px !important;
-        margin-top: -380px !important;
-      }
-    
-      .lastform .form-section form {
-        width: 90% !important;
-        position: absolute;
-        margin-top: -150px;
-        margin-left: 20px;
-  
-      }
-    
-      .lastform .lastbutton {
-        margin-left: 190px !important;
-        padding: 0 110px !important;
+    .image-section .imgseven {
+        width: 140% !important; /* Ensure images fit within small screens */
+        margin-left: -60px !important; /* Remove margin for small screens */
         margin-top: 60px !important;
-        width: 40% !important;
-        height: 80% !important;
+        opacity: 0.2 !important;
         position: absolute;
-        font-size: 15px !important;
-      }
-      
-      .lastform .lastbutton .sign {
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        left: 75px !important;
-      }
-      
-      .lastform .lastbutton:hover {
-        border-color: transparent;
-        border-radius: 20px;
-        background-color: #9349c4;
-        color: #ffffff;
-        transform: scale(1.1);
-      }
-    
-      .footer {
-          background-color: #22003bb6 !important;
-          color: #fff;
-          display: flex;
-          height: 350px !important;
-          width: 135%;
-          margin-left: -80px;
-          position: absolute;
-        }
-     
-  
-        .footer-columnone {
-          margin-left: 190px !important;
-          margin-top: 40px !important;
-          position: absolute !important;
-        }
-  
-      .footer-columnone .logo-link{
-        margin-left: -20px !important;
-        margin-top: -30px !important;
-        width: 80% !important;
-      }
-    
-      .footer-columnone p {
-        margin-left: 50px !important;
-        text-align: center;
-        margin-top: 10px !important;
-        font-size: 12px !important;
-        width: 400px !important;
-      }
-  
-      .social-links {
-          justify-content: center;
-          margin-left: 175px !important;
-          margin-top: -5px !important;
-          width: 300px !important;
-      }
-      
-      .social-links a {
-          padding: 0 10px;
-          margin-top: -5px;
-        }
-      
-
-  
-  
-        .footer-columnthree{
-          margin-top: 190px !important;
-          margin-left: 90px !important;
-          text-align: center;
-          position: absolute !important;
-        }
-  
-      .footer-columnthree h4 {
-        margin-left: -120px;
-        margin-top: 90px;
-        font-size: 13px !important;
-        text-align: center;
-        position: absolute;
-        display: none;
-      }
-
-
-      .footer-columnthree ul  a {
-        line-height: 1.2rem !important;
-        font-size: 13px !important;
-        margin-left: 140px !important;
-        color: white;
-        width: 190% !important;
-        
-      }
-    
-  
-
-      .footer-columntwo, .footer-columnfour {
-       display: none !important;
-    
-      }
-
-
-  
     }
+    
+    .text-section .text {
+        margin-top: 150px !important; /* Adjust margins for small screens */
+        margin-left: 10px !important;
+        width: 100%; /* Adjust width for small screens */
+    }
+    
+    .text-section h1.Our {
+        font-size: 4rem !important; /* Adjust font size for small screens */
+        margin-left: 0 !important;
+    }
+    
+    .text-section h2 .Newslettertwo {
+        font-size: 3.5rem; /* Adjust font size for small screens */
+        margin-left: 0 !important;
+        margin-top: 40px;
+    }
+    
+    .lastform .form-section form {
+        margin-top: 60px;
+        margin-left: 10px;
+        width: 120% !important; /* Ensure form fits within small screens */
+    }
+    
+    .lastform .lastbutton {
+        margin-left: 100px !important;
+        margin-top: 70px !important;
+        padding: 6px 60px !important; /* Adjust padding for small screens */
+        position: absolute;
+    }
+    
+    .footer {
+        padding: 20px 10px; /* Adjust padding for small screens */
+        font-size: 10px !important; /* Adjust font size for small screens */
+        height: 45vh !important; /* Adjust height for small screens */
+    }
+    
+    .footer .container {
+        margin: 20px 10px !important; /* Adjust margins for small screens */
+    }
+    
+    .footer-col {
+        margin-bottom: 40px !important; /* Adjust spacing for small screens */
+    }
+
+    .footer-columntwo, .footer-columnfour{
+        display: none;
+    }
+    
+
+    .footer-columnone{
+        margin-left: -120px !important;
+        margin-top: 20px !important;
+    }
+
+    .footer-columnthree{
+        margin-left: -280px !important;
+
+    }
+
+
+    .footer-col h4 {
+        font-size: 14px; /* Adjust font size for small screens */
+        margin-top: 150px !important;
+        margin-left: 150px !important;
+
+    }
+    
+    .footer-col p {
+        font-size: 13px; /* Adjust font size for small screens */
+        width: 100% !important; /* Ensure text fits within small screens */
+        text-align: center !important;
+        
+    }
+
+    .footer-col ul {
+        font-size: 14px; /* Adjust font size for small screens */
+        width: 100% !important; /* Ensure text fits within small screens */
+        text-align: center !important;
+
+    }
+    
+    .footer-col .social-links {
+        width: auto; /* Adjust width for small screens */
+        margin-left: 0 !important;
+    }
+
+    .footer-col img {
+        width: 50% !important; /* Responsive logo width */
+        max-width: 200% !important; /* Maximum width of the logo */
+        margin-left: 270px !important;
+    }
+}
+
+
   /* For screen widths between 768px and 1024px */
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .last {
-        display: block;
-      }
-    
-      .image-section .imgseven {
-        width: 80%;
-        margin-left: 40px;
-        margin-top: 40px !important;
-
-      }
-    
-      .text-section .text {
-        margin-top: -250px;
-      }
-    
-      .text-section h1.Our {
-        font-size: 4rem !important;
-        margin-top: -490px !important;
-        margin-left: 40px !important;
-        position: absolute;
-  
-      }
-  
-      .text h1 .artseven{
-          height: 30px;
-          position: absolute;
-          top: 10%;
-          right: 23%;
-          transform: translate(-50%, 40%);
-          }
-    
-      .text-section h2 .Newslettertwo {
-        font-size: 4rem;
-        position: absolute;
-        margin-left: 190px !important;
-        margin-top: -770px !important;
-      }
-    
-      .lastform .form-section form {
-        width: 90%;
-        position: absolute;
-        margin-top: -360px;
-        margin-left: 20px;
-  
-      }
-    
-      .lastform .lastbutton {
-        margin-left: 240px;
-        padding: 0 -80px !important;
-        margin-top: 50px;
-        width: 23%;
-        height: 80%;
-        position: absolute;
-      }
-      
-      .lastform .lastbutton .sign {
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        left: 15px;
-      }
-      
-      .lastform .lastbutton:hover {
-        border-color: transparent;
-        border-radius: 20px;
-        background-color: #9349c4;
-        color: #ffffff;
-        transform: scale(1.1);
-      }
-    
-      .divider {
-        border: none;
-        border-top: 1px solid #ddd;
-        margin: -40px 0;
-        position: absolute;
-      }
-      
-    
-      .footer{
-        background-color:#22003B;
-        width: 120%;
-        margin-top: -270px;
-        margin-left: -78px;
-        color: #ffffff;
-      }
-      
-      .footer .container {
-        max-width: 200% !important;
-        width: 180% !important;
-        height: 250px !important;
-        margin-top: -40px !important;
-    
-      }
-      
-      .row {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between; /* Align columns evenly */
-      }
-      
-      .footer-col {
-          flex: 1; /* Ensure columns are flexible */
-          padding: 0 55px !important;
-          min-width: 220px; /* Set a minimum width for columns */
-      }
-    
-    
-      .footer-columnone img{
-    margin-left: 58px;
-    margin-top: 40px;
-    width: 150px;
-    
-    
-      }
-    
-      .footer-columnone p{
-       font-size: 12px;
-       width: 100%;
-       margin-left: 60px;
-       margin-top: 90px;
-    
-      }
-      
-      .footer-col h4 {
-          font-size: 18px;
-          color: #ffffff;
-          text-transform: capitalize;
-          margin-bottom: 15px; /* Reduce margin for better spacing */
-          font-weight: 500;
-          position: relative;
-      }
-      
-      .footer-col h4::before {
-          content: '';
-          position: absolute;
-          left: 0;
-          bottom: -5px; /* Adjust position */
-          background-color: #e91e63;
-          height: 2px;
-          width: 50px;
-      }
-      
-      .footer-col ul {
-          padding: 0;
-      }
-      
-      .footer-col ul li {
-          margin-bottom: 10px;
-      }
-      
-      .footer-col ul li a {
-          font-size: 12px;
-          text-transform: capitalize;
-          color: #bbbbbb;
-          text-decoration: none;
-          display: block;
-          transition: all 0.3s ease;
-      }
-      
-      .footer-col ul li a:hover {
-          color: #ffffff;
-          padding-left: 8px;
-      }
-    
-      .footer-col .social-links {
-    margin-left: 50px;
-    margin-top: -10px;
-    }
-      
-      .footer-col .social-links a {
-          display: inline-block;
-          height: 30px;
-          width: 30px;
-    
-          margin-top: -10px;
-          text-align: center;
-          line-height: 30px;
-          border-radius: 50%;
-          color: #ffffff;
-          transition: all 0.5s ease;
-      }
-      
-      .footer-col .social-links a:hover {
-          color: #24262b;
-          background-color: #ffffff;
-      }
-      
-    
-      .footer-columnfour h4 {
-    margin-left: -20px;
-      }
-    
-      .footer-columnfour {
-        display: none;
-          }
-
-          .footer-columntwo {
-            display: none;
-            }
-        
-
-      .footer-columnthree h4 {
-        margin-left: -750px !important;
-        margin-top: 40px !important;
-          }
-
-          .footer-columnthree li{
-            margin-left: -750px !important;
-              }
-
-    
-    
-      .footer-columntwo p{
-        width: 120% !important;
-    font-size: 12px;
-    margin-top: 10px;
-      }
-    }
-
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
-    
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     #section9{
-        height: 65vh !important;
+        height: 70vh !important;
     }
 
     .last {
@@ -14004,11 +13544,12 @@ line-height: 20px;
       }
       
       .image-section .imgseven {
-        width: 1200% !important;
+        width: 1600% !important;
         height: auto;
-        margin-left: 100px !important; 
-        margin-top: -10px !important;
+        margin-left: -70px !important; 
+        margin-top: 60px !important;
         position: absolute;
+        opacity: 0.3 !important;
       }
       
       .text h1 .artseven{
@@ -14020,18 +13561,20 @@ line-height: 20px;
         }
     
       .text-section .text {
-        margin-top: 40px !important;
-        margin-left: 700px !important;
+        margin-top: 150px !important;
+        margin-left: 250px !important;
         font-family: Poppins;
         font-weight: bold;
         position: absolute !important;
       }
       
       .text-section h1.Our {
-        font-size: 5rem;
+        font-size: 5rem !important;
         font-family: Poppins;
         font-weight: bold;
         margin-left: -190px !important;
+        width: 400%;
+        
       }
       
       .text-section h2 .Newslettertwo {
@@ -14040,7 +13583,7 @@ line-height: 20px;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         -webkit-text-stroke: 2px #ffffff; 
-        margin-left: -240px !important;
+        margin-left: -260px !important;
         margin-top: 55px;
         font-family: Poppins;
         font-weight: bold;
@@ -14050,8 +13593,8 @@ line-height: 20px;
       .lastform .form-section form {
         display: flex;
         position: absolute;
-        margin-top: 200px;
-        margin-left: 440px;
+        margin-top: 330px;
+        margin-left: 50px !important;
         border-radius: 50px;
         background-color: transparent;
         padding: 2px;
@@ -14091,7 +13634,7 @@ line-height: 20px;
         cursor: pointer;
         display: flex;
         align-items: center;
-        margin-left: 180px !important;
+        margin-left: 160px !important;
       }
       
       .lastform .lastbutton .sign {
@@ -14120,9 +13663,243 @@ line-height: 20px;
       .footer {
         background-color: #333;
         color: #fff;
-        padding: 50px 30px;
+        padding: 90px 5px;
         font-size: 12px !important;
-        height: 45vh; /* Adjust as needed */
+        height: 40vh; /* Adjust as needed */
+        margin-top: -50px;
+        box-shadow: 0 9px 8px rgba(0, 0, 0, 0.68) !important;
+    }
+    
+    .footer .container {
+        max-width: 1200px; /* Maximum width of the footer content */
+        margin: -10px auto; /* Center align the footer content */
+    }
+    
+    .footer .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .footer-col {
+        margin-bottom: 20px; /* Space between columns */
+    }
+
+    .footer-columnone{
+        margin-top: -10px !important;
+        margin-left: -40px !important;
+    }
+
+    .footer-columntwo, .footer-columnfour{
+        display: none;
+    }
+    
+    .footer-col h4 {
+        font-size: 20px !important;
+        margin-bottom: 20px;
+        margin-left: -220px !important;
+        margin-top: -5px !important;
+    }
+    
+    .footer-col p{
+        font-size: 14px;
+        line-height: 1.6;
+        width: 200% !important;
+    }
+
+    .footer-col ul a {
+        font-size: 14px !important;
+        line-height: 1.6;
+        width: 150% !important;
+        margin-left: -220px !important;
+    }
+    
+    .footer-col a {
+        color: #ffffff; /* Link color */
+        text-decoration: none;
+    }
+    
+    .footer-col a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+    
+    .footer-col .logo-link {
+        display: block;
+        margin-bottom: 20px;
+
+    }
+    
+    .img .logoone {
+        width: 100% !important; /* Responsive logo width */
+        max-width: 200%; /* Maximum width of the logo */
+    }
+    
+    .footer-col .social-links {
+        display: flex;
+        gap: 15px; /* Space between social icons */
+        height: 30px !important;
+        width: 150px !important;
+        margin-left: 170px !important;
+    }
+    
+    .footer-col .social-links a {
+        color: #ffffff;
+        font-size: 18px;
+
+    }
+    
+    .footer-col .social-links a:hover {
+        color: #00aaff; /* Color change on hover */
+    }
+    
+    .footer-col ul {
+        list-style-type: none; /* Remove default list style */
+        padding: 0;
+    }
+    
+    .footer-col ul a {
+        display: block;
+        margin-bottom: 10px; /* Space between links */
+        font-size: 12px;
+    }
+    
+    .footer-col ul a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    
+    #section9{
+        height: 70vh !important;
+    }
+
+    .last {
+        display: flex;
+      }
+      
+      .image-section .imgseven {
+        width: 1600% !important;
+        height: auto;
+        margin-left: -20px !important; 
+        margin-top: 40px !important;
+        position: absolute;
+      }
+      
+      .text h1 .artseven{
+        height: 41px;
+        position: absolute;
+        top: 22.7%;
+        right: 35.8%;
+        transform: translate(-50%, 40%);
+        }
+    
+      .text-section .text {
+        margin-top: 150px !important;
+        margin-left: 580px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        position: absolute !important;
+      }
+      
+      .text-section h1.Our {
+        font-size: 5rem !important;
+        font-family: Poppins;
+        font-weight: bold;
+        margin-left: -190px !important;
+        width: 400%;
+        
+      }
+      
+      .text-section h2 .Newslettertwo {
+        font-size: 5rem;
+        background: linear-gradient(to right, #c3376300, #9f3e5d00);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 2px #ffffff; 
+        margin-left: -260px !important;
+        margin-top: 55px;
+        font-family: Poppins;
+        font-weight: bold;
+        position: absolute;
+      }
+      
+      .lastform .form-section form {
+        display: flex;
+        position: absolute;
+        margin-top: 330px;
+        margin-left: 360px;
+        border-radius: 50px;
+        background-color: transparent;
+        padding: 2px;
+        border: 1px solid #D1B9FF;
+        height: 40px;
+        width: 1300% !important;
+      }
+      
+      .lastform .form-section input {
+        background-color: transparent;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 50px;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+        outline: none;
+        padding-left: 40px;
+        height: 100%; 
+        box-sizing: border-box; 
+        color: rgb(255, 255, 255) !important; 
+    
+      }
+    
+    
+      
+      .lastform .lastbutton {
+        background-color: #7900D1;
+        color: #ffffff;
+        padding: 4px 35px 4px 50px;
+        border-radius: 4000px;
+        font-size: 12px;
+        transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
+        font-family: Poppins;
+        border: none;
+        font-weight: medium;
+        margin-left: 220px;
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin-left: 160px !important;
+      }
+      
+      .lastform .lastbutton .sign {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 15px;
+      }
+      
+      .lastform .lastbutton:hover {
+        border-color: transparent;
+        border-radius: 20px;
+        background-color: #9349c4;
+        color: #ffffff;
+        transform: scale(1.1);
+      }
+      
+      
+      .divider {
+        border: none;
+        border-top: 1px solid #ddd;
+        position: absolute;
+      }
+      
+
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 90px 5px;
+        font-size: 12px !important;
+        height: 40vh; /* Adjust as needed */
         margin-top: -50px;
         box-shadow: 0 9px 8px rgba(0, 0, 0, 0.68) !important;
     }
@@ -14211,7 +13988,7 @@ line-height: 20px;
 }
 
 
-        @media screen and (min-width: 1441px) and (max-width: 2560px) {
+        @media screen and (min-width: 1440px) and (max-width: 2560px) {
 
 
             #section9{
