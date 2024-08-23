@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const navDots = document.querySelectorAll(".nav-dot");
     const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
     const sections = document.querySelectorAll("section");
+    const navbarToggler = document.querySelector(".custom-toggler"); // Select the navbar toggler
+    const navbarCollapse = document.querySelector(".navbar-collapse"); // Select the navbar collapse
 
     function removeHoverClass() {
         navDots.forEach(dot => dot.classList.remove("hover"));
@@ -17,6 +19,12 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+    function collapseNavbar() {
+        if (navbarToggler && navbarCollapse.classList.contains("show")) {
+            navbarToggler.click(); // Trigger the click event to collapse the navbar
+        }
+    }
+
     navLinks.forEach(link => {
         link.addEventListener("click", function(event) {
             event.preventDefault();
@@ -26,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector(section).scrollIntoView({
                 behavior: "smooth"
             });
+            collapseNavbar(); // Collapse the navbar after clicking a nav-link
         });
     });
 
@@ -37,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector(section).scrollIntoView({
                 behavior: "smooth"
             });
+            collapseNavbar(); // Collapse the navbar after clicking a dot
         });
     });
 
