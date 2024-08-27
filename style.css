@@ -926,7 +926,7 @@ html {
     }
 } 
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media screen and (min-width: 321px) and (max-width: 374px) {
     .vertical-navbar {
         position: fixed;
         left: 5%;
@@ -956,7 +956,7 @@ html {
     }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+@media screen and (min-width: 375px) and (max-width: 425px) {
     .vertical-navbar {
         position: fixed;
         left: 5%;
@@ -992,12 +992,12 @@ html {
         left: 5%;
         top: 55%;
         transform: translateY(-50%);
-        display: none;
+        display: none !important;
     }
     
     .vertical-navbar ul {
         list-style-type: none;
-        display: none;
+        display: none !important;
     }
 
 
@@ -1363,7 +1363,7 @@ border: #00000000;
 
     
   
-  @media screen and (min-width: 321px) and (max-width: 374px) {
+ @media screen and (min-width: 321px) and (max-width: 374px) {
     .text-section h1{
         font-size: 3.1em !important;
         margin-left: 8px !important;
@@ -1431,7 +1431,7 @@ border: #00000000;
           .carousel {
               margin-top: 520px !important;
               margin-left: -70px !important;
-              width: 230% !important; /* Adjusted for responsiveness */
+              width: 230% !important; 
           }
           
           .carousel-track {
@@ -1453,37 +1453,37 @@ border: #00000000;
   
       
           .button-group .btn-primary {
-            padding: 4px 20px; /* Adjust padding for smaller screens */
-            font-size: 10px; /* Adjust font size for better readability */
-            margin-left: 30px; /* Reduce margin for small screens */
+            padding: 4px 20px; 
+            font-size: 10px; 
+            margin-left: 30px; 
             margin-top: 750px !important;
             width: 250px !important;
             position: absolute;
         }
     
         .button-group .btn-primary:hover {
-            border-radius: 15px; /* Adjust border-radius on hover for smaller screens */
-            transform: scale(1.05); /* Slightly reduce scale effect */
+            border-radius: 15px;
+            transform: scale(1.05); 
         }
     
         .btn.btn-secondary {
-            padding: 2px 10px; /* Adjust padding for smaller screens */
-            font-size: 10px; /* Adjust font size for better readability */
-            margin-left: 40px; /* Reduce margin for small screens */
+            padding: 2px 10px; 
+            font-size: 10px;
+            margin-left: 40px; 
             margin-top: 850px !important;
             width: 250px !important;
             position: absolute;
         }
     
         .btn.btn-secondary:hover {
-            border-radius: 15px; /* Adjust border-radius on hover for smaller screens */
-            transform: scale(1.05); /* Slightly reduce scale effect */
+            border-radius: 15px; 
+            transform: scale(1.05); 
         }
   
-    }
-  
-  /* 375px to 425px */
-  @media screen and (min-width: 375px) and (max-width: 424px) {
+    } 
+
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
 
 
     .text-section h1{
@@ -1553,7 +1553,7 @@ border: #00000000;
           .carousel {
               margin-top: 520px !important;
               margin-left: -70px !important;
-              width: 230% !important; /* Adjusted for responsiveness */
+              width: 230% !important;
           }
           
           .carousel-track {
@@ -1575,39 +1575,39 @@ border: #00000000;
   
       
           .button-group .btn-primary {
-            padding: 4px 20px; /* Adjust padding for smaller screens */
-            font-size: 10px; /* Adjust font size for better readability */
-            margin-left: 50px; /* Reduce margin for small screens */
+            padding: 4px 20px; 
+            font-size: 10px; 
+            margin-left: 50px; 
             margin-top: 750px !important;
             width: 250px !important;
             position: absolute;
         }
     
         .button-group .btn-primary:hover {
-            border-radius: 15px; /* Adjust border-radius on hover for smaller screens */
-            transform: scale(1.05); /* Slightly reduce scale effect */
+            border-radius: 15px; 
+            transform: scale(1.05); 
         }
     
         .btn.btn-secondary {
-            padding: 2px 10px; /* Adjust padding for smaller screens */
-            font-size: 10px; /* Adjust font size for better readability */
-            margin-left: 60px; /* Reduce margin for small screens */
+            padding: 2px 10px; 
+            font-size: 10px; 
+            margin-left: 60px;
             margin-top: 850px !important;
             width: 250px !important;
             position: absolute;
         }
     
         .btn.btn-secondary:hover {
-            border-radius: 15px; /* Adjust border-radius on hover for smaller screens */
-            transform: scale(1.05); /* Slightly reduce scale effect */
+            border-radius: 15px; 
+            transform: scale(1.05); 
         }
   
     }
     
   
-  /* 425px to 768px */
   @media screen and (min-width: 425px) and (max-width: 767px) {
-                .text-section h1{
+               
+    .text-section h1{
                   font-size: 4em !important;
                   margin-left: 15px !important;
                 }
@@ -3544,7 +3544,7 @@ line-height: 40px;
         font-family: Poppins;
         font-weight: bold;
         color: #ffffff;
-        margin-top: 135px !important;
+        margin-top: 100px !important;
         margin-left: 15px !important;
         }
         
@@ -3562,8 +3562,8 @@ line-height: 40px;
         
         .image-section .imgtwo{
         width: 100% !important;
-        margin-left: 160px !important;
-        margin-top: 170px !important;
+        margin-left: 90px !important;
+        margin-top: 100px !important;
         }
         
         .text-section h4.three {
@@ -5466,8 +5466,8 @@ transform: scale(1.1);
         .hover-buttons {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-        margin-top: 30px !important;
+        gap: 5px;
+        margin-top: 15px !important;
         margin-left: 275px !important;
         position: absolute;
         }
@@ -5982,7 +5982,7 @@ font-weight: bold;
     
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+/* @media screen and (min-width: 376px) and (max-width: 425px) {
     .text-section .impcontentone {
         font-size: 55px !important;
         margin-top: 80px !important;
@@ -6121,7 +6121,7 @@ font-weight: bold;
     }
 
     
-}
+} */
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
 
@@ -6196,7 +6196,7 @@ font-weight: bold;
     
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+/* @media screen and (min-width: 376px) and (max-width: 425px) {
        .text-section .impcontentone {
         font-size: 55px !important;
         margin-top: 80px !important;
@@ -6264,7 +6264,7 @@ font-weight: bold;
     }
 
     
-}
+} */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   
@@ -6565,7 +6565,7 @@ font-weight: bold;
             overflow: hidden !important;
             background-color: rgba(255, 255, 255, 0);
             margin-left: -100px !important;
-            margin-top: 30px;
+            margin-top: -20px;
             position: relative;
             box-sizing: border-box;
         }
@@ -8376,7 +8376,7 @@ font-weight: bold;
     
     .bottom-hr {
         border: 1px solid #ddd;
-        margin-top: 10px !important;
+        margin-top: -30px !important;
         width: 130% !important;
         margin-left: -90px !important;
     }
@@ -8385,7 +8385,7 @@ font-weight: bold;
         display: flex;
         justify-content: space-around;
         position: relative;
-        top: -60px;
+        top: -90px;
         right: 60px !important;
     }
     
@@ -9990,15 +9990,15 @@ font-weight: bold;
         font-size: 9rem !important;
         font-family: Poppins;
         font-weight: bold;
-        margin-left: -770px !important;
+        margin-left: -550px !important;
         margin-top: -10px !important;
     }
     
     .lower-part {
-        width:120% !important;
+        width: 120% !important;
         overflow: hidden;
         white-space: nowrap;
-        margin-top: 70px;
+        margin-top: 30px;
         margin-left: -90px !important;
     }
     
@@ -11583,12 +11583,11 @@ For screens between 425px and 768px
 
 @media screen and (min-width: 1440px) and (max-width: 2560px) {
 
-
-    
+ 
     .text-section .digitlone {
         font-size: 7rem !important;
         margin-left: -100px !important;
-        margin-top: 110px !important;
+        margin-top: 50px !important;
         font-family: Poppins;
         font-weight: bold;
     }
@@ -11601,7 +11600,7 @@ For screens between 425px and 768px
         font-family: Poppins;
         font-weight: bold;
         margin-top: -10px !important;
-        margin-left: -165px !important;
+        margin-left: -5px !important;
     }
     
     .pricing-section {
@@ -13571,14 +13570,11 @@ font-weight: Regular;
 
 
 @media screen and (min-width: 1440px) and (max-width: 2560px) {
-    
-
-
     .swiper-container {
         width: 100% !important;
         height: 500px !important;
         perspective: 3000px;
-        margin-top: 290px !important;
+        margin-top: 170px !important;
         margin-left: -5px;
       }
       
@@ -15066,7 +15062,6 @@ img .logoone {
 
 
         @media screen and (min-width: 1440px) and (max-width: 2559px) {
-
         
             .last {
                 display: flex;
@@ -15076,7 +15071,7 @@ img .logoone {
                 width: 70% !important;
                 height: auto;
                 margin-left: -150px !important; 
-                margin-top: 60px !important;
+                margin-top: -5px !important;
               }
               
               .text h1 .artseven{
@@ -15088,7 +15083,7 @@ img .logoone {
                 }
             
               .text-section .text {
-                margin-top: 50px !important;
+                margin-top: -50px !important;
                 margin-left: 700px !important;
                 font-family: Poppins;
                 font-weight: bold;
@@ -15187,9 +15182,10 @@ img .logoone {
               }
        
                footer .container{
-    max-width: 1700px !important;
-    margin-left: 200px !important;
-  }
+                max-width: 1200px !important;
+                margin-left: 400px !important;
+                padding: 0 1px !important;
+              }
 
   .footer .row {
     display: flex;
