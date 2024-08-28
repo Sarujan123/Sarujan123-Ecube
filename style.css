@@ -1335,10 +1335,10 @@ border: #00000000;
             .button-group .btn-primary {
                 background-color:#7900d1 !important;
                 padding: 4px 20px; /* Adjust padding for smaller screens */
-                font-size: 10px; /* Adjust font size for better readability */
+                font-size: 8px; /* Adjust font size for better readability */
                 margin-left: 50px; /* Reduce margin for small screens */
                 margin-top: 50px !important;
-                width: 250px !important;
+                width: 230px !important;
             }
         
             .button-group .btn-primary:hover {
@@ -1348,7 +1348,7 @@ border: #00000000;
         
             .btn.btn-secondary {
                 padding: 2px 10px; /* Adjust padding for smaller screens */
-                font-size: 10px; /* Adjust font size for better readability */
+                font-size: 8px; /* Adjust font size for better readability */
                 margin-left: 10px; /* Reduce margin for small screens */
                 margin-top: 50px !important;
                 width: 300px !important;
@@ -13950,7 +13950,7 @@ img .logoone {
 }
 
 .footer-col .social-links a:hover {
-    color: #00aaff; 
+    color: #800080 !important; 
 }
 
 .footer-col ul {
@@ -14112,7 +14112,7 @@ img .logoone {
     }
 
     .footer-col .social-links a:hover {
-        color: #00aaff;
+        color: #800080 !important; 
     }
 
     .footer-col ul {
@@ -14274,7 +14274,7 @@ img .logoone {
     }
 
     .footer-col .social-links a:hover {
-        color: #00aaff;
+        color: #800080 !important; 
     }
 
     .footer-col ul {
@@ -14437,7 +14437,7 @@ img .logoone {
     }
 
     .footer-col .social-links a:hover {
-        color: #00aaff;
+        color: #800080 !important; 
     }
 
     .footer-col ul {
@@ -14597,7 +14597,7 @@ img .logoone {
     }
 
     .footer-col .social-links a:hover {
-        color: #00aaff;
+        color: #800080 !important; 
     }
 
     .footer-col ul {
@@ -14819,7 +14819,7 @@ img .logoone {
         }
     
         .footer-col .social-links a:hover {
-            color: #00aaff;
+            color: #800080 !important; 
         }
     
         .footer-col ul {
@@ -15046,7 +15046,7 @@ img .logoone {
     }
     
     .footer-col .social-links a:hover {
-        color: #00aaff; /* Color change on hover */
+        color: #800080 !important; 
     }
     
     .footer-col ul {
@@ -15280,7 +15280,7 @@ img .logoone {
 }
 
 .footer-col .social-links a:hover {
-    color: #00aaff; 
+    color: #800080 !important; 
 }
 
 .footer-col ul {
@@ -15515,7 +15515,7 @@ img .logoone {
 }
 
 .footer-col .social-links a:hover {
-    color: #00aaff; 
+    color: #800080 !important; 
 }
 
 .footer-col ul {
