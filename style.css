@@ -1,19 +1,3 @@
- /* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #22003B !important;
-    background-image: radial-gradient(at 3% 87%, hsla(330, 43%, 54%, 0.35) 0px, transparent 50%),
-                      radial-gradient(at 6% 8%, hsla(274, 100%, 11%, 1) 0px, transparent 50%),
-                      radial-gradient(at 64% 70%, hsla(274, 100%, 11%, 1) 0px, transparent 50%),
-                      radial-gradient(at 67% 32%, hsla(274, 100%, 11%, 1) 0px, transparent 50%),
-                      radial-gradient(at 100% 62%, hsla(274, 100%, 36%, 0.89) 0px, transparent 50%);
-    overflow-x: hidden;
-    box-sizing: border-box;
-    scroll-behavior: smooth !important;
-}  */
-
-
 body {
     background-color: #22003B !important;
     background-image: radial-gradient(at 3% 87%, hsla(330, 43%, 54%, 0.35) 0px, transparent 50%),
@@ -37,19 +21,6 @@ html {
 .main-content {
     padding: 50px 10px !important;
 } 
-
-
-/* html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background-image: radial-gradient(at 3% 87%, hsla(330, 43%, 54%, 0.35) 0px, transparent 50%),
-    radial-gradient(at 6% 8%, hsla(274, 100%, 11%, 1) 0px, transparent 50%),
-    radial-gradient(at 64% 70%, hsla(274, 100%, 11%, 1) 0px, transparent 50%),
-    radial-gradient(at 67% 32%, hsla(274, 100%, 11%, 1) 0px, transparent 50%),
-    radial-gradient(at 100% 62%, hsla(274, 100%, 36%, 0.89) 0px, transparent 50%);
-    width: 100%;
-} */
 
 
 .sections {
@@ -591,56 +562,72 @@ html {
 }
 
 
-@media screen and (min-width: 769px) and (max-width:1024px) { 
-    .navbar-nav {
-        display: block;
-        justify-content: center;
-    }
-
-    .navbar-nav .nav-link {
-        margin-right: -260px !important;
-        padding: 15px 0 !important;
-        display: block;
-        text-align: center;
-        background-color: #22003B !important;
-        position: relative;
-    }
-
-    .logo {
-        margin: 10px auto;
-        display: block;
-        width: 150px; /* Adjusted logo size */
-    }
-
-    .container {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
+@media screen and (min-width: 993px) and (max-width:1025px) { 
     .custom-navbar {
-        height: auto;
-        box-shadow: none;
+        background-color: #22003B !important;
+        height: 70px !important;
+        box-shadow: 0 9px 8px rgba(0, 0, 0, 0.68) !important;
     }
-
+    
     .custom-toggler {
-        margin-left: 0; /* Removed negative margin */
+        border-color: rgba(255, 255, 255, 0.5);
         
     }
-
+    
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -180px;
+        font-family: Poppins;
+        font-weight: SemiBold;
+        font-size: 15px !important;
+    }
+    
+    .navbar-nav .nav-link {
+        position: relative;
+        color: #ffffff;
+        margin-right: 10px !important;
+        padding-bottom: -25px !important;
+        text-decoration: none;
+    }
+    
+    .navbar-nav .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 23% !important;
+        width: 0%;
+        height: 2.5px;
+        background-color: transparent;
+        transition: width 0.5s ease, background-color 0.5s ease;
+    }
+    
+    .navbar-nav .nav-link:hover::after {
+        width: 60%;
+        background-color: #ffffff;
+    }
+    
     .contact-btn .btn {
+        margin-top: 5px;
+        margin-left: 30px !important;
         background-color: #7900D1;
         color: #fff;
         border: none;
-        padding: 5px 35px;
+        padding: 5px 35px 5px 50px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
         background-image: url('asserts/symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
-        font-size: 20px;
+        font-size: 10px !important;
         font-weight: medium;
         font-family: Poppins;
+        position: absolute;
     }
     
     .contact-btn .btn:hover {
@@ -649,10 +636,21 @@ html {
         color: #ffffff;
         transform: scale(1.1);
     }
-}
+    
+    .btn .fas {
+        margin-right: 8px;
+    }
+    
+    .logo {
+        margin-right: 20px;
+        margin-left: 30px !important;
+        width: 130px !important;
+    } 
+    
+} 
 
 
-@media screen and (min-width: 768px) and (max-width:992px) { 
+/* @media screen and (min-width: 768px) and (max-width:992px) { 
 
     .custom-navbar {
         background-color: #22003B !important;
@@ -677,7 +675,7 @@ html {
     .logo {
         margin: 10px auto;
         display: block;
-        width: 150px; /* Adjusted logo size */
+        width: 150px; 
     }
 
     .container {
@@ -691,7 +689,7 @@ html {
     }
 
     .custom-toggler {
-        margin-left: 0; /* Removed negative margin */
+        margin-left: 0; 
         
     }
 
@@ -718,9 +716,9 @@ html {
         transform: scale(1.1);
     }
 }
+*/
 
-
-@media screen and (min-width: 993px) and (max-width:1024px) { 
+@media screen and (min-width: 1026px) and (max-width:1439px) { 
     .custom-navbar {
         background-color: #22003B !important;
         height: 70px !important;
@@ -805,7 +803,7 @@ html {
         width: 150px !important;
     } 
     
-}
+} 
 
 
 @media screen and (min-width: 1441px) and (max-width: 2560px) { 
@@ -956,7 +954,7 @@ html {
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 425px) {
+@media screen and (min-width: 375px) and (max-width: 424px) {
     .vertical-navbar {
         position: fixed;
         left: 5%;
@@ -986,7 +984,7 @@ html {
 }
 
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
     .vertical-navbar {
         position: fixed;
         left: 5%;
@@ -1335,6 +1333,7 @@ border: #00000000;
     
         
             .button-group .btn-primary {
+                background-color:#7900d1 !important;
                 padding: 4px 20px; /* Adjust padding for smaller screens */
                 font-size: 10px; /* Adjust font size for better readability */
                 margin-left: 50px; /* Reduce margin for small screens */
@@ -1453,6 +1452,7 @@ border: #00000000;
   
       
           .button-group .btn-primary {
+            background-color:#7900d1 !important;
             padding: 4px 20px; 
             font-size: 10px; 
             margin-left: 30px; 
@@ -1575,6 +1575,7 @@ border: #00000000;
   
       
           .button-group .btn-primary {
+            background-color:#7900d1 !important;
             padding: 4px 20px; 
             font-size: 10px; 
             margin-left: 50px; 
@@ -1696,6 +1697,7 @@ border: #00000000;
             
                 
                     .button-group .btn-primary {
+                        background-color:#7900d1 !important;
                         padding: 4px 20px; /* Adjust padding for smaller screens */
                         font-size: 10px; /* Adjust font size for better readability */
                         margin-left: 50px; /* Reduce margin for small screens */
@@ -1817,6 +1819,7 @@ border: #00000000;
             
                 
                     .button-group .btn-primary {
+                        background-color:#7900d1 !important;
                         padding: 4px 20px; /* Adjust padding for smaller screens */
                         font-size: 18px; /* Adjust font size for better readability */
                         margin-left: 50px; /* Reduce margin for small screens */
@@ -1941,6 +1944,7 @@ border: #00000000;
   
       
           .button-group .btn-primary {
+            background-color:#7900d1 !important;
               padding: 4px 20px; /* Adjust padding for smaller screens */
               font-size: 18px; /* Adjust font size for better readability */
               margin-left: 200px; /* Reduce margin for small screens */
@@ -2162,7 +2166,7 @@ border: #00000000;
     
     /*Get started button*/
     .button-group .btn-primary {
-    background-color:#7900d1;
+    background-color:#7900d1 !important;
     padding: 4px 35px; 
     border-radius: 4000px; 
     font-size: 12px !important;
@@ -2639,7 +2643,7 @@ border: #00000000;
     
     /*Get started button*/
     .button-group .btn-primary {
-    background-color:#7900d1;
+    background-color:#7900d1 !important;
     padding: 4px 35px; 
     border-radius: 4000px; 
     font-size: 18px !important;
@@ -2658,7 +2662,8 @@ border: #00000000;
     color: #ffffff !important; 
     transform: scale(1.1); 
     }
-    
+
+
     .btn.btn-secondary {
     background-color: transparent;
     padding: 2px 20px; 
@@ -2679,7 +2684,7 @@ border: #00000000;
     border-radius: 20px; 
     background-color:rgba(255, 255, 255, 0); 
     transform: scale(1.1); 
-    outline: rgba(0, 0, 0, 0);
+    outline: rgba(255, 255, 255, 0);
     border: #00000000;
     }
     
@@ -9309,17 +9314,17 @@ font-weight: bold;
     }
 
     .left-side .sixone {
-        font-size: 4rem;
+        font-size: 4.3rem !important;
         margin-left: -20px !important;
-        margin-top: 75px;
+        margin-top: 175px;
         width: 200% !important;
     }
 
     .left-side  .sixtwo {
-        font-size: 3.8rem;
-        margin-left: -200px !important;
+        font-size: 4.1rem !important;
+        margin-left: -250px !important;
         margin-top: -5px;
-        width: 200% !important;
+
     }
 
     .lower-part {
@@ -9692,14 +9697,14 @@ font-weight: bold;
 
     .right-side h3 {
         font-size: 20px;
-        margin-top: 190px;
+        margin-top: 300px;
         margin-left: 100px;
         width: auto;
     }
 
     .right-side p {
-        font-size: 10px;
-        margin-top: 215px;
+        font-size: 12px;
+        margin-top: 325px;
         margin-left: 100px;
         width: auto;
     }
@@ -9707,7 +9712,7 @@ font-weight: bold;
     .Rectangle {
         width: 60%;
         margin-left: 80px;
-        margin-top: 180px;
+        margin-top: 290px;
     }
 
     .text-section h1 .artfour {
@@ -11180,10 +11185,10 @@ For screens between 425px and 768px
 /* For screens between 768px and 1024px */
 @media screen and (min-width: 768px) and (max-width: 1025px) {
 
-    .pricing-section {
+.pricing-section {
     display: flex;
     overflow: hidden;
-    width: 125% !important;
+    width: 123% !important;
     margin-left: -65px !important;
     margin-top: 235px;
 }
@@ -11245,9 +11250,9 @@ For screens between 425px and 768px
 }
 
 .image-section .imgfive {
-    width: 85% !important;
-    margin-top: 110px !important;
-    margin-left: 35px !important;
+    width: 80% !important;
+    margin-top: 68px !important;
+    margin-left: 65px !important;
     position: absolute;
 
 
@@ -11718,9 +11723,9 @@ For screens between 425px and 768px
     }
     
     .image-section .imgfive {
-        width: 100% !important;
-        margin-top: 118px !important;
-        margin-left: 110px;
+        width: 90% !important;
+        margin-top: 70px !important;
+        margin-left: 130px;
         position: absolute !important;
     }
     
@@ -15071,7 +15076,7 @@ img .logoone {
                 width: 70% !important;
                 height: auto;
                 margin-left: -150px !important; 
-                margin-top: -5px !important;
+                margin-top: 15px !important;
               }
               
               .text h1 .artseven{
@@ -15182,8 +15187,8 @@ img .logoone {
               }
        
                footer .container{
-                max-width: 1200px !important;
-                margin-left: 400px !important;
+                max-width: 1400px !important;
+                margin-left: 380px !important;
                 padding: 0 1px !important;
               }
 
@@ -15200,8 +15205,8 @@ img .logoone {
   }
 
   .footer-col{
-     width: 25% !important; 
-     padding: 0 15px;
+     width: 35% !important; 
+     padding: 0 15px !important;
   }
   
 
