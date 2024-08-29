@@ -179,7 +179,7 @@ html {
     padding: 5px 35px 5px 50px;
     border-radius: 1000px;
     transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-    background-image: url('symbols/email.png');
+    background-image: url('assets/Button symbols/email.png');
     background-repeat: no-repeat;
     background-position: 15px center;
     background-size: 20px;
@@ -266,7 +266,7 @@ html {
         padding: 5px 35px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        background-image: url('assets/symbols/email.png');
+        background-image: url('assets/Button symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
@@ -336,7 +336,7 @@ html {
         padding: 5px 35px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        background-image: url('assets/symbols/email.png');
+        background-image: url('assets/Button symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
@@ -406,7 +406,7 @@ html {
         padding: 5px 35px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        background-image: url('assets/symbols/email.png');
+        background-image: url('assets/Button symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
@@ -477,7 +477,7 @@ html {
         padding: 5px 35px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        background-image: url('assets/symbols/email.png');
+        background-image: url('assets/Button symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
@@ -549,7 +549,7 @@ html {
         padding: 5px 35px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        background-image: url('assets/symbols/email.png');
+        background-image: url('assets/Button symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
@@ -620,7 +620,7 @@ html {
         padding: 5px 35px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        background-image: url('assets/symbols/email.png');
+        background-image: url('assets/Button symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
@@ -688,7 +688,7 @@ html {
         padding: 5px 35px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        background-image: url('asserts/symbols/email.png');
+        background-image: url('assets/Button symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
@@ -764,7 +764,7 @@ html {
         padding: 5px 35px 5px 50px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        background-image: url('asserts/symbols/email.png');
+        background-image: url('assets/Button symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
@@ -920,7 +920,7 @@ html {
         padding: 5px 35px 5px 50px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        background-image: url('asserts/symbols/email.png');
+        background-image: url('assets/Button symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
@@ -1009,7 +1009,7 @@ html {
         padding: 5px 35px 5px 50px;
         border-radius: 1000px;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
-        background-image: url('asserts/symbols/email.png');
+        background-image: url('assets/Button symbols/email.png');
         background-repeat: no-repeat;
         background-position: 15px center;
         background-size: 20px;
@@ -1220,7 +1220,6 @@ html {
 .border-text {
     background: linear-gradient(to right, #c3376300, #9f3e5d00);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
     -webkit-text-stroke: 2px #9370D9;
     font-size: 80px;
     font-weight: bold;
@@ -1385,7 +1384,7 @@ border: #00000000;
 }
 
 .btn.btn-secondary::after {
-content: url('asserts/symbols/play.png');
+content: url('assets/Button symbols/play1@.png');
 margin-left: 7px;
 vertical-align: middle;
 outline: rgba(0, 0, 0, 0);
@@ -1414,7 +1413,6 @@ border: #00000000;
         .border-text {
             background: linear-gradient(to right, #c3376300, #9f3e5d00) !important;
             -webkit-text-fill-color: transparent !important;
-            -webkit-background-clip: text !important;
             -webkit-text-stroke: 2px#9370D9 !important; 
             font-size: 58px !important;
             font-weight: bold; 
@@ -1532,7 +1530,6 @@ border: #00000000;
       .border-text {
           background: linear-gradient(to right, #c3376300, #9f3e5d00) !important;
           -webkit-text-fill-color: transparent !important;
-          -webkit-background-clip: text !important;
           -webkit-text-stroke: 2px#9370D9 !important; 
           font-size: 50px !important;
           font-weight: bold; 
@@ -1653,7 +1650,6 @@ border: #00000000;
       .border-text {
           background: linear-gradient(to right, #c3376300, #9f3e5d00) !important;
           -webkit-text-fill-color: transparent !important;
-          -webkit-background-clip: text !important;
           -webkit-text-stroke: 2px#9370D9 !important; 
           font-size: 50px !important;
           font-weight: bold; 
@@ -1775,7 +1771,6 @@ border: #00000000;
       .border-text {
           background: linear-gradient(to right, #c3376300, #9f3e5d00) !important;
           -webkit-text-fill-color: transparent !important;
-          -webkit-background-clip: text !important;
           -webkit-text-stroke: 2px#9370D9 !important; 
           font-size: 50px !important;
           font-weight: bold; 
@@ -1896,7 +1891,6 @@ border: #00000000;
       .border-text {
           background: linear-gradient(to right, #c3376300, #9f3e5d00) !important;
           -webkit-text-fill-color: transparent !important;
-          -webkit-background-clip: text !important;
           -webkit-text-stroke: 2px#9370D9 !important; 
           font-size: 50px !important;
           font-weight: bold; 
@@ -2013,7 +2007,6 @@ border: #00000000;
                 .border-text {
                     background: linear-gradient(to right, #c3376300, #9f3e5d00) !important;
                     -webkit-text-fill-color: transparent !important;
-                    -webkit-background-clip: text !important;
                     -webkit-text-stroke: 2px#9370D9 !important; 
                     font-size: 50px !important;
                     font-weight: bold; 
@@ -2135,7 +2128,6 @@ border: #00000000;
                 .border-text {
                     background: linear-gradient(to right, #c3376300, #9f3e5d00) !important;
                     -webkit-text-fill-color: transparent !important;
-                    -webkit-background-clip: text !important;
                     -webkit-text-stroke: 2px#9370D9 !important; 
                     font-size: 63px !important;
                     font-weight: bold; 
@@ -2260,7 +2252,6 @@ border: #00000000;
       .border-text {
           background: linear-gradient(to right, #c3376300, #9f3e5d00) !important;
           -webkit-text-fill-color: transparent !important;
-          -webkit-background-clip: text !important;
           -webkit-text-stroke: 2px#9370D9 !important; 
           font-size: 63px !important;
           font-weight: bold; 
@@ -2422,7 +2413,6 @@ border: #00000000;
     .border-text {
         background: linear-gradient(to right, #c3376300, #9f3e5d00);
         -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #9370D9;
         font-family: Poppins;
         font-weight: bold;
@@ -2596,7 +2586,7 @@ border: #00000000;
     }
     
     .btn.btn-secondary::after {
-    content: url('asserts/symbols/play.png');
+    content: url('assets/Button symbols/play1@.png');
     margin-left: 7px;
     vertical-align: middle;
     outline: rgba(0, 0, 0, 0);
@@ -2902,7 +2892,6 @@ border: #00000000;
     .border-text {
         background: linear-gradient(to right, #c3376300, #9f3e5d00);
         -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #9370D9;
         font-size: 120px !important;
         font-weight: bold;
@@ -2985,11 +2974,11 @@ border: #00000000;
     
     .carousel img {
         max-width: 300px;
-        height: auto; /* Adjusted for responsiveness */
+        height: auto; 
         padding: 6px;
     }
     
-    
+
     
     
     /* vertical navbar */
@@ -3074,7 +3063,7 @@ border: #00000000;
     }
     
     .btn.btn-secondary::after {
-    content: url('asserts/symbols/play.png');
+    content: url('assets/Button symbols/play1@.png');
     margin-left: 7px;
     vertical-align: middle;
     outline: rgba(0, 0, 0, 0);
@@ -3102,7 +3091,6 @@ font-weight: bold;
 margin-top: -20px ;
 background: transparent; 
 -webkit-text-fill-color: transparent; 
--webkit-background-clip: text;
 -webkit-text-stroke: 2px #ffffff; 
 }
 
@@ -3487,7 +3475,6 @@ line-height: 40px;
         margin-top: 200px !important;
         background: transparent; 
         -webkit-text-fill-color: transparent; 
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #ffffff; 
         margin-left: 160px !important;
         width: 800% !important;
@@ -3643,7 +3630,6 @@ line-height: 40px;
         margin-top: 200px !important;
         background: transparent; 
         -webkit-text-fill-color: transparent; 
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #ffffff; 
         margin-left: 160px !important;
         width: 800% !important;
@@ -3796,7 +3782,6 @@ line-height: 40px;
         margin-top: -20px !important;
         background: transparent; 
         -webkit-text-fill-color: transparent; 
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #ffffff; 
         margin-left: 160px !important;
 
@@ -3945,7 +3930,6 @@ line-height: 40px;
         margin-top: -40px ;
         background: transparent; 
         -webkit-text-fill-color: transparent; 
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #ffffff; 
         margin-left: -80px !important;
         }
@@ -6050,7 +6034,6 @@ font-weight: bold;
 }
 
 .text-section h2 .impcontentthree {
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #9370D9;
     font-size: 80px;
@@ -6810,7 +6793,6 @@ font-weight: bold;
 
 
     .text-section .impcontenttwo {
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px #9370D9;
         font-size: 5rem !important;
@@ -6930,7 +6912,6 @@ font-weight: bold;
         }
 
         .text-section .impcontenttwo {
-            -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             -webkit-text-stroke: 2px #9370D9;
             font-size: 10rem !important;
@@ -7074,7 +7055,6 @@ font-weight: bold;
         }
 
 .text-section .fivethree{
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #ffffff;
     font-size: 80px;
@@ -8105,7 +8085,6 @@ font-weight: bold;
             }
     
     .text-section .fivethree{
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px #ffffff;
         font-size: 70px;
@@ -8327,7 +8306,6 @@ font-weight: bold;
             }
     
     .text-section .fivethree{
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px #ffffff;
         font-size: 70px;
@@ -8543,7 +8521,6 @@ font-weight: bold;
             }
     
     .text-section .fivethree{
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px #ffffff;
         font-size: 80px;
@@ -8755,7 +8732,6 @@ font-weight: bold;
             }
     
     .text-section .fivethree{
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px #ffffff;
         font-size: 8rem !important;
@@ -9021,7 +8997,6 @@ font-weight: bold;
     }
 
 .sixtwo {
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #9370D9;
     font-size: 5rem;
@@ -10137,7 +10112,6 @@ font-weight: bold;
         }
     
     .sixtwo {
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px #9370D9;
         font-size: 5.5rem !important;
@@ -10374,7 +10348,6 @@ font-weight: bold;
         }
     
     .sixtwo {
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 4px #936FD9 !important;
         font-size: 9rem !important;
@@ -10597,7 +10570,6 @@ font-weight: bold;
     }
     
     .text-section .digitlthree {
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px #9370D9;
         font-size: 4.3rem;
@@ -11725,7 +11697,6 @@ For screens between 425px and 768px
     }
     
     .text-section .digitlthree {
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px #9370D9;
         font-size: 4.3rem;
@@ -11983,7 +11954,6 @@ For screens between 425px and 768px
     }
     
     .text-section .digitlthree {
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px #9370D9;
         font-size: 6rem !important;
@@ -12305,7 +12275,6 @@ height: 120px;
     font-size: 5rem;
     background: linear-gradient(to right, #c3376300, #9f3e5d00);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
     -webkit-text-stroke: 2px #980ce3; 
     margin-left: 240px;
     margin-top: -25px;
@@ -13348,7 +13317,6 @@ font-weight: Regular;
         font-size: 5rem;
         background: linear-gradient(to right, #c3376300, #9f3e5d00);
         -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #980ce3; 
         margin-left: 240px;
         margin-top: -25px;
@@ -13512,7 +13480,6 @@ font-weight: Regular;
         font-size: 5rem;
         background: linear-gradient(to right, #c3376300, #9f3e5d00);
         -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #980ce3; 
         margin-left: 240px;
         margin-top: -25px;
@@ -13680,7 +13647,6 @@ font-weight: Regular;
         font-size: 5rem;
         background: linear-gradient(to right, #c3376300, #9f3e5d00);
         -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #980ce3; 
         margin-left: 240px;
         margin-top: -25px;
@@ -14019,7 +13985,6 @@ font-weight: Regular;
         font-size: 5rem;
         background: linear-gradient(to right, #c3376300, #9f3e5d00);
         -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #980ce3; 
         margin-left: 240px;
         margin-top: -25px;
@@ -14165,7 +14130,6 @@ font-weight: Regular;
     font-size: 9rem;
     background: linear-gradient(to right, #c3376300, #9f3e5d00);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
     -webkit-text-stroke: 2px #ffffff; 
     margin-left: -940px !important;
     margin-top: 650px;
@@ -15046,7 +15010,6 @@ img .logoone {
             font-size: 5rem;
             background: linear-gradient(to right, #c3376300, #9f3e5d00);
             -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
             -webkit-text-stroke: 2px #ffffff;
             margin-left: -480px !important;
             margin-top: -130px;
@@ -15270,7 +15233,6 @@ img .logoone {
         font-size: 5rem;
         background: linear-gradient(to right, #c3376300, #9f3e5d00);
         -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
         -webkit-text-stroke: 2px #ffffff; 
         margin-left: -480px !important;
         margin-top: -130px;
@@ -15493,7 +15455,6 @@ img .logoone {
                 font-size: 9rem;
                 background: linear-gradient(to right, #c3376300, #9f3e5d00);
                 -webkit-text-fill-color: transparent;
-                -webkit-background-clip: text;
                 -webkit-text-stroke: 2px #ffffff; 
                 margin-left: -940px !important;
                 margin-top: 650px;
@@ -15729,7 +15690,6 @@ img .logoone {
                 font-size: 9rem;
                 background: linear-gradient(to right, #c3376300, #9f3e5d00);
                 -webkit-text-fill-color: transparent;
-                -webkit-background-clip: text;
                 -webkit-text-stroke: 2px #ffffff; 
                 margin-left: -940px !important;
                 margin-top: 650px;
