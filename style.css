@@ -11596,8 +11596,8 @@ For screens between 425px and 768px
     margin-top: -15px;
 }
 
-.pricing-card ul h5 {
-    font-size: 0.7rem;
+.pricing-card h5 {
+    font-size: 0.9rem;
     margin-top: -5px;
 }
 
@@ -11609,8 +11609,9 @@ For screens between 425px and 768px
 .image-section .imgfive {
     width: 80% !important;
     margin-top: 68px !important;
-    margin-left: 65px !important;
+    margin-left: 100px !important;
     position: absolute;
+    display: none !important;
 
 
 }
@@ -11619,7 +11620,7 @@ For screens between 425px and 768px
     font-size: 0.9rem !important;
     height: 35px;
     width: 80%;
-    margin: 25px auto;
+    margin: 35px auto !important;
     display: block;
 }
 
@@ -11627,7 +11628,7 @@ For screens between 425px and 768px
     font-size: 0.9rem !important;
     height: 35px;
     width: 80%;
-    margin: 5px auto;
+    margin: 35px auto !important;
     display: block;
 }
 
@@ -11635,7 +11636,7 @@ For screens between 425px and 768px
     font-size: 0.9rem !important;
     height: 35px !important;
     width: 80% !important;
-    margin: -10px auto !important;
+    margin: -10px 20px !important;
    
 }
 
@@ -11691,7 +11692,7 @@ For screens between 425px and 768px
     .text-section .digitlone {
         font-size: 4.3rem !important;
         margin-left: 100px !important;
-        margin-top: 40px;
+        margin-top: 30px;
         font-family: Poppins;
         font-weight: bold;
     }
@@ -11773,9 +11774,9 @@ For screens between 425px and 768px
         padding: 0;
     }
 
-    .pricing-card ul h5 {
+    .pricing-card  h5 {
         list-style: none;
-        font-size: 12px;
+        font-size: 12px !important;
         margin-top: -10px;
         font-family: Poppins;
         font-weight: medium;
@@ -11783,7 +11784,7 @@ For screens between 425px and 768px
     
     .pricing-card ul li {
         margin-top: 8px;
-        font-size: 0.7rem;
+        font-size: 0.6.5rem;
         color: #000000;
         display: flex;  
         font-family: Poppins;
@@ -11822,7 +11823,7 @@ For screens between 425px and 768px
     
     .image-section .imgfive {
         width: 55%;
-        margin-top: 20px !important;
+        margin-top: 40px !important;
         margin-left: 60px !important;
         position: absolute !important;
     }
@@ -11873,7 +11874,7 @@ For screens between 425px and 768px
         cursor: pointer;
         transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
         margin-left: 5px;
-        margin-top: -10px;
+        margin-top: -15px !important;
         font-family: Poppins;
         font-weight: medium;
     }
@@ -13258,7 +13259,7 @@ font-weight: Regular;
       
     }    */
   
-  @media screen and (min-width: 768px) and (max-width: 1025px) {
+  /* @media screen and (min-width: 768px) and (max-width: 1025px) {
     .swiper-container {
         width: 100%;
         height: 500px;
@@ -13419,14 +13420,14 @@ font-weight: Regular;
         opacity: 2;
       }
       
-  } 
+  }  */
 
 @media screen and (min-width: 1026px) and (max-width: 1439px) {
     .swiper-container {
         width: 130% !important;
         height: 500px !important;
         perspective: 3000px;
-        margin-top: 70px !important;
+        margin-top: 40px !important;
         margin-left: -170px !important;
       }
       
@@ -13572,7 +13573,7 @@ font-weight: Regular;
       .swiper-pagination-bullet {
         width: 10px;
         height: 10px;
-        margin-top: 200px;
+        margin-top: 100px !important;
         background-color: #ffffff;
         border-radius: 50%;
         cursor: pointer;
@@ -13585,14 +13586,14 @@ font-weight: Regular;
       
     }    
   
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media screen and (min-width: 768px) and (max-width: 1025px) {
 
 
     .swiper-container {
         width: 100%;
         height: 500px;
         perspective: 3000px;
-        margin-top: 180px !important;
+        margin-top: 120px !important;
         margin-left: -5px;
       }
       
