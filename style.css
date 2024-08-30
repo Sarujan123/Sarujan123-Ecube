@@ -1068,7 +1068,7 @@ html {
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 374px), (min-width: 375px) and (max-width: 424px), (min-width: 425px) and (max-width: 767px) {
+@media screen and (min-width: 321px) and (max-width: 374px), (min-width: 375px) and (max-width: 424px), (min-width: 425px) and (max-width: 767px), (min-width: 768px) and (max-width: 992px) {
     .vertical-navbar {
         position: fixed;
         left: 5%;
@@ -3912,7 +3912,7 @@ line-height: 40px;
   }
 
 
-  @media screen and  (min-width: 1440px) and (max-width: 2559px) {
+  @media screen and  (min-width: 1440px) and (max-width: 2560px) {
 
     .text-section h2 span.one {
         font-size: 7.5rem !important;
@@ -8051,13 +8051,13 @@ font-weight: bold;
         width: 160%;
         height: auto;
         margin-left: -270px;
-        margin-top: 10px !important;
+        margin-top: 60px !important;
         opacity: 0.2 ;
         position: absolute;
     }
     
     .text-section .fiveone{
-    font-size: 50px;
+    font-size: 70px !important;
     color: #ffffff;
     margin-top: 140px;
     margin-left: 50px !important;
@@ -8087,10 +8087,10 @@ font-weight: bold;
     .text-section .fivethree{
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px #ffffff;
-        font-size: 70px;
+        font-size: 70px !important;
         font-family: Poppins;
         font-weight: bold;
-        margin-left: 40px;
+        margin-left: 20px;
         width: 200%;
 
     }
@@ -10324,7 +10324,7 @@ font-weight: bold;
 
 
 
-@media screen and (min-width: 1440px) and (max-width: 2559px) {
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
     .right-side .expert-image {
         width: 55% !important;
         margin-left: 950px !important;
@@ -11540,13 +11540,13 @@ For screens between 425px and 768px
 }
 
 /* For screens between 768px and 1024px */
-@media screen and (min-width: 768px) and (max-width: 1025px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
 .pricing-section {
     display: flex;
     overflow: hidden;
-    width: 123% !important;
-    margin-left: -65px !important;
+    width: 128% !important;
+    margin-left: -75px !important;
     margin-top: 235px;
 }
 
@@ -11685,6 +11685,153 @@ For screens between 425px and 768px
 
 }
 }
+
+
+@media screen and (min-width: 993px) and (max-width: 1025px) {
+
+    .pricing-section {
+        display: flex;
+        overflow: hidden;
+        width: 120% !important;
+        margin-left: -65px !important;
+        margin-top: 235px;
+    }
+    
+    .pricing-card {
+        background: #f8f8f8;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        padding: 20px;
+        width: 240px;
+        height: 300px;
+        box-shadow: 0 4px 8px rgb(0, 0, 0);
+        margin: -5px 50px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .text-section .digitlone {
+        font-size: 4rem !important;
+        margin-left: 55px !important;
+        margin-top: 100px;
+        position: absolute;
+        width: 600px !important;
+    }
+    
+    .text-section .digitlthree {
+        font-size: 4rem !important;
+        margin-left: -130px !important;
+        margin-top: 420px !important;
+        position: absolute !important;
+        width: 600px !important;
+    }
+    
+    .pricing-card h2 {
+        font-size: 1em;
+        margin-top: -5px;
+    }
+    
+    .pricing-card .priceone, 
+    .pricing-card .pricetwo, 
+    .pricing-card .pricesubone, 
+    .pricing-card .pricesubtwo {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    
+    .pricing-card .pricethree, 
+    .pricing-card .pricesubthree {
+        margin-top: -15px;
+    }
+    
+    .pricing-card h5 {
+        font-size: 0.9rem;
+        margin-top: -5px;
+    }
+    
+    .pricing-card ul li {
+        font-size: 0.6rem;
+        margin-top: 5px;
+    }
+    
+    .image-section .imgfive {
+        width: 75% !important;
+        margin-top: 75px !important;
+        margin-left: 80px !important;
+        position: absolute;
+
+    
+    
+    }
+    
+    .btn-get-started .buttonone {
+        font-size: 0.9rem !important;
+        height: 35px;
+        width: 80%;
+        margin: 35px auto !important;
+        display: block;
+    }
+    
+    .btn-get-started .buttontwo {
+        font-size: 0.9rem !important;
+        height: 35px;
+        width: 80%;
+        margin: 35px auto !important;
+        display: block;
+    }
+    
+    .btn-get-started .buttonthree {
+        font-size: 0.9rem !important;
+        height: 35px !important;
+        width: 80% !important;
+        margin: -10px 20px !important;
+       
+    }
+    
+    .PCONE {
+        height: auto;
+        margin-top: 0;
+        margin-left: -40px !important;
+    }
+    
+    .PCTWO {
+        height: auto;
+        margin-top: 0;
+        margin-left: -170px !important;
+    }
+    
+    .PCTHREE {
+        height: auto;
+        margin-top: 0;
+        margin-left: -170px !important;
+    }
+    
+    .dot-pagination {
+        margin-top: -200px;
+        margin-left: -35px !important;
+        position: absolute;
+        transform: translateY(-50%);
+        rotate: 90deg;
+        display: None !important;
+    }
+    
+    .dot {
+        height: 15px;
+        width: 15px;
+        background-color: transparent;
+        border: 3px solid #ddd;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: auto;
+        cursor: pointer;
+    }
+    
+    .dot.active {
+        background-color: #ffffff7a;
+        width: 15px;
+        height: 15px;
+    
+    }
+    }
 
 
 @media screen and (min-width: 1026px) and (max-width: 1439px) {
@@ -14967,7 +15114,7 @@ img .logoone {
 }
 
   /* For screen widths between 768px and 1024px */
-  @media screen and (min-width: 768px) and (max-width: 1025px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
 
         .last {
             display: flex;
@@ -15187,6 +15334,229 @@ img .logoone {
         }
     }
     
+
+    @media screen and (min-width: 993px) and (max-width: 1025px) {
+
+        .last {
+            display: flex;
+        }
+    
+        .image-section .imgseven {
+            width: 130% !important;
+            height: auto;
+            margin-left: 160px !important;
+            margin-top: 50px !important;
+            position: absolute;
+            opacity: 0.3 !important;
+        }
+    
+        .text h1 .artseven {
+            height: 41px;
+            position: absolute;
+            top: 22.7%;
+            right: 35.8%;
+            transform: translate(-50%, 40%);
+        }
+    
+        .text-section .text {
+            margin-top: 400px !important;
+            margin-left: 100px !important;
+            font-family: Poppins;
+        }
+    
+        .text-section h1.Our {
+            font-size: 5rem !important;
+            font-family: Poppins;
+            font-weight: bold;
+            margin-left: -450px !important;
+            margin-top: -190px !important;
+            font-weight: bold;
+            width: 1000% !important;
+            position: absolute;
+        }
+    
+        .text-section h2 .Newslettertwo {
+            font-size: 5rem;
+            background: linear-gradient(to right, #c3376300, #9f3e5d00);
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 2px #ffffff;
+            margin-left: -480px !important;
+            margin-top: -130px;
+            font-family: Poppins;
+            font-weight: bold;
+            width: 400% !important;
+            position: absolute;
+        }
+    
+        .lastform .form-section form {
+            display: flex;
+            margin-top: -10px !important;
+            margin-left: -280px;
+            border-radius: 50px;
+            background-color: transparent;
+            padding: 2px;
+            border: 1px solid #D1B9FF;
+            height: 40px;
+            width: 100% !important;
+        }
+    
+        .lastform .form-section input {
+            background-color: transparent;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+            outline: none;
+            padding-left: 40px;
+            height: 100%;
+            box-sizing: border-box;
+            color: rgb(255, 255, 255) !important;
+        }
+    
+        .lastform .lastbutton {
+            background-color: #7900D1;
+            color: #ffffff;
+            padding: 4px 35px 4px 50px;
+            border-radius: 4000px;
+            font-size: 12px;
+            transition: background-color 0.3s, border-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
+            font-family: Poppins;
+            border: none;
+            font-weight: medium;
+            margin-left: 200px !important;
+            position: relative;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+    
+        .lastform .lastbutton .sign {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 15px;
+        }
+    
+        .lastform .lastbutton:hover {
+            border-color: transparent;
+            border-radius: 20px;
+            background-color: #9349c4;
+            color: #ffffff;
+            transform: scale(1.1);
+        }
+    
+        .divider {
+            border: none;
+            border-top: 1px solid #ddd;
+            position: absolute;
+        }
+    
+        .footer {
+            background-color: #22003B;
+            color: #fff;
+            padding: 70px 0 !important;
+            font-size: 12px !important;
+            box-shadow: 0 9px 8px rgba(0, 0, 0, 0.68) !important;
+            margin-top: -170px !important;
+        }
+    
+        .footer .container {
+            max-width: 600px !important;
+            margin: -70px 250px !important;
+        }
+    
+        .footer .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    
+        .footer-col {
+            width: 25% !important;
+            padding: 0 15px;
+        }
+    
+        .footer-columnone {
+            margin-top: -1px !important;
+        }
+
+        .footer-columntwo, .footer-columnfour{
+            display: none !important;
+        }
+
+        .footer-col h4 {
+            font-size: 18px !important;
+            margin-bottom: 20px;
+            margin-left: -180px !important;
+        }
+    
+        .footer-col p {
+            font-size: 12px;
+            line-height: 1.4;
+            width: 200px !important;
+        }
+    
+        .footer-col ul {
+            font-size: 12px;
+            line-height: 1.4;
+            width: 250px !important;
+            margin-left: -180px !important;
+        }
+    
+        .footer-col a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    
+        .footer-col a:hover {
+            text-decoration: underline;
+        }
+    
+        .footer-col .logo-link {
+            display: block;
+            margin-bottom: 20px;
+        }
+    
+        .img .logoone {
+            width: 100% !important;
+            max-width: 200%;
+        }
+    
+        .footer-col .social-links {
+            display: flex;
+            gap: 15px;
+            height: 30px !important;
+            width: 150px !important;
+            margin-left: -5px !important;
+        }
+    
+        .footer-col .social-links a {
+            color: #ffffff;
+            font-size: 18px;
+        }
+    
+        .footer-col .social-links a:hover {
+            color: #800080 !important; 
+        }
+    
+        .footer-col ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    
+        .footer-col ul a {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+    
+        .footer-col ul a:hover {
+            text-decoration: underline;
+        }
+    }
+    
+
+
 
 @media screen and (min-width: 1026px) and (max-width: 1439px) {
 
@@ -15650,16 +16020,15 @@ img .logoone {
 
         @media screen and (min-width: 2560px) {
 
-        
             .last {
                 display: flex;
               }
               
               .image-section .imgseven {
-                width: 70% !important;
+                width: 65% !important;
                 height: auto;
                 margin-left: -150px !important; 
-                margin-top: 60px !important;
+                margin-top: 20px !important;
               }
               
               .text h1 .artseven{
@@ -15671,7 +16040,7 @@ img .logoone {
                 }
             
               .text-section .text {
-                margin-top: 50px !important;
+                margin-top: -10px !important;
                 margin-left: 700px !important;
                 font-family: Poppins;
                 font-weight: bold;
@@ -15683,7 +16052,7 @@ img .logoone {
                 font-family: Poppins;
                 font-weight: bold;
                 margin-left: -980px !important;
-                margin-top: 100px !important;
+                margin-top: 70px !important;
                 position: absolute !important;
               }
               
@@ -15693,7 +16062,7 @@ img .logoone {
                 -webkit-text-fill-color: transparent;
                 -webkit-text-stroke: 2px #ffffff; 
                 margin-left: -940px !important;
-                margin-top: 650px;
+                margin-top: 580px;
                 font-family: Poppins;
                 font-weight: bold;
                 position: absolute;
@@ -15702,7 +16071,7 @@ img .logoone {
               .lastform .form-section form {
                 display: flex;
                 position: absolute;
-                margin-top: 410px;
+                margin-top: 370px;
                 margin-left: -350px;
                 border-radius: 50px;
                 background-color: transparent;
@@ -15770,7 +16139,7 @@ img .logoone {
        
                footer .container{
     max-width: 1700px !important;
-    margin-left: 200px !important;
+    margin-left: 600px !important;
   }
 
   .footer .row {
