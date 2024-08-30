@@ -950,7 +950,7 @@ html {
 } 
 
 
-@media screen and (min-width: 1441px) and (max-width: 2560px) { 
+@media screen and (min-width: 1440px) and (max-width: 2560px) { 
     
     .custom-navbar {
         background-color: #22003B !important;
@@ -970,7 +970,7 @@ html {
     .navbar-nav {
         display: flex;
         justify-content: flex-end;
-        margin-left: -260px;
+        margin-left: -220px;
         font-family: Poppins;
         font-weight: SemiBold;
         font-size: 20px !important;
@@ -1002,7 +1002,7 @@ html {
     
     .contact-btn .btn {
         margin-top: 5px;
-        margin-left: 175px !important;
+        margin-left: 50px !important;
         background-color: #7900D1;
         color: #fff;
         border: none;
@@ -1032,7 +1032,7 @@ html {
     
     .logo {
         margin-right: 20px;
-        margin-left: -170px !important;
+        margin-left: -100px !important;
         width: 360px !important;
     } 
     
@@ -16273,7 +16273,7 @@ img .logoone {
                 width: 70% !important;
                 height: auto;
                 margin-left: -150px !important; 
-                margin-top: 15px !important;
+                margin-top: 50px !important;
               }
               
               .text h1 .artseven{
@@ -16285,7 +16285,7 @@ img .logoone {
                 }
             
               .text-section .text {
-                margin-top: -50px !important;
+                margin-top: -10px !important;
                 margin-left: 700px !important;
                 font-family: Poppins;
                 font-weight: bold;
@@ -16388,7 +16388,7 @@ img .logoone {
                 padding: 70px 0 !important;
                 font-size: 12px !important;
                 box-shadow: 0 9px 8px rgba(0, 0, 0, 0.68) !important;
-                margin-top: -190px !important;
+                margin-top: -270px !important;
             }
         
             
