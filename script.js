@@ -104,20 +104,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// 2nd page button //
-document.getElementById('sendButton').addEventListener('click', function(event) {
-            event.preventDefault();
-            const form = document.getElementById('contactForm');
-            if (form.checkValidity()) {
-                alert('Form submitted successfully!');
-                // You can add your form submission logic here
-            } else {
-                alert('Please fill out all required fields.');
-            }
-        });
-
-
-
 // pricing mobile view slider //
         
 document.querySelectorAll('.dot').forEach((dot, index) => {
