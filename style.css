@@ -14367,7 +14367,7 @@ font-weight: Regular;
   }
 
   .footer{
-    background-color: #22003B;
+    /* background-color: #22003B; */
       padding: 70px 0;
   }
 
@@ -14466,6 +14466,11 @@ img .logoone {
     color: #7900d1 !important;
 }
     
+
+
+
+
+
 @media screen and (max-width: 320px) {
     .last {
         display: block; /* Adjust display for small screens */
@@ -15240,8 +15245,7 @@ img .logoone {
         }
     
         .footer .container {
-            max-width: 600px !important;
-            margin: -70px 140px !important;
+            margin: -70px 0!important;
         }
     
         .footer .row {
@@ -15257,6 +15261,7 @@ img .logoone {
     
         .footer-columnone {
             margin-top: -1px !important;
+            margin-left: 150px !important;
         }
 
         .footer-columntwo, .footer-columnfour{
@@ -15266,7 +15271,7 @@ img .logoone {
         .footer-col h4 {
             font-size: 18px !important;
             margin-bottom: 20px;
-            margin-left: -180px !important;
+            margin-left: -150px !important;
         }
     
         .footer-col p {
@@ -15279,7 +15284,7 @@ img .logoone {
             font-size: 12px;
             line-height: 1.4;
             width: 250px !important;
-            margin-left: -180px !important;
+            margin-left: -150px !important;
         }
     
         .footer-col a {
@@ -15461,8 +15466,7 @@ img .logoone {
         }
     
         .footer .container {
-            max-width: 600px !important;
-            margin: -70px 250px !important;
+            margin: -70px 0 !important;
         }
     
         .footer .row {
@@ -15473,11 +15477,11 @@ img .logoone {
     
         .footer-col {
             width: 25% !important;
-            padding: 0 15px;
         }
     
         .footer-columnone {
             margin-top: -1px !important;
+            margin-left: 250px !important;
         }
 
         .footer-columntwo, .footer-columnfour{
@@ -15487,7 +15491,7 @@ img .logoone {
         .footer-col h4 {
             font-size: 18px !important;
             margin-bottom: 20px;
-            margin-left: -180px !important;
+            margin-left: -200px !important;
         }
     
         .footer-col p {
@@ -15500,7 +15504,7 @@ img .logoone {
             font-size: 12px;
             line-height: 1.4;
             width: 250px !important;
-            margin-left: -180px !important;
+            margin-left: -200px !important;
         }
     
         .footer-col a {
@@ -15566,10 +15570,10 @@ img .logoone {
       }
       
       .image-section .imgseven {
-        width: 57% !important;
+        width: 80% !important;
         height: auto;
-        margin-left: 80px !important; 
-        margin-top: 20px !important;
+        margin-left: 10px !important; 
+        margin-top: 50px !important;
 
       }
       
@@ -15582,7 +15586,7 @@ img .logoone {
         }
     
       .text-section .text {
-        margin-top: 250px !important;
+        margin-top: 400px !important;
         margin-left: 350px !important;
         font-family: Poppins;
 
@@ -15693,19 +15697,18 @@ img .logoone {
 
     
     .footer .container {
-        max-width: 1000px !important; /* Maximum width of the footer content */
-        margin: -70px 180px !important; /* Center align the footer content */
+        margin: 70px 0 !important;   
     }
     
     .footer .row {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-left: 100px !important;
     }
     
     .footer-col{
         width: 25% !important; 
-        padding: 0 15px;
      }
 
     .footer-columnone{
@@ -15784,8 +15787,8 @@ img .logoone {
 }
 
 
-        @media screen and (min-width: 1440px) and (max-width: 1500px) {
-        
+@media screen and (min-width: 1440px) and (max-width: 1500px) {
+            
             .last {
                 display: flex;
               }
@@ -15904,29 +15907,29 @@ img .logoone {
               }
        
               .footer {
-                background-color: #22003B;
+                /* background-color: #22003B; */
                 color: #fff;
                 padding: 70px 0 !important;
                 font-size: 12px !important;
                 box-shadow: 0 9px 8px rgba(0, 0, 0, 0.68) !important;
                 margin-top: -190px !important;
             }
+
+            .footer .container{
+                margin: 100px  0 !important;
+
+              }
         
-            
-            .footer .container {
-                max-width: 1200px !important; /* Maximum width of the footer content */
-                margin: -70px 200px !important; /* Center align the footer content */
-            }
-            
+
             .footer .row {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                margin-left: 160px !important;
             }
             
             .footer-col{
                 width: 25% !important; 
-                padding: 0 15px;
              }
         
 
@@ -16024,8 +16027,7 @@ img .logoone {
 
 
 
-        @media screen and (min-width: 1501px) and (max-width: 1600px) {
-        
+@media screen and (min-width: 1501px) and (max-width: 1600px) {  
             .last {
                 display: flex;
               }
@@ -16154,25 +16156,21 @@ img .logoone {
         
             
             .footer .container {
-                max-width: 1200px !important; /* Maximum width of the footer content */
-                margin: -70px 250px !important; /* Center align the footer content */
+                margin: -70px 0 !important; 
             }
             
             .footer .row {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                margin-left: 150px !important;
             }
             
             .footer-col{
                 width: 25% !important; 
                 padding: 0 15px;
              }
-        
-
-  
-
-
+ 
   .footer-col h4{
     font-size: 18px;
     color: #ffffff;
@@ -16389,18 +16387,20 @@ img .logoone {
                 font-size: 12px !important;
                 box-shadow: 0 9px 8px rgba(0, 0, 0, 0.68) !important;
                 margin-top: -270px !important;
+                
+
             }
         
             
             .footer .container {
-                max-width: 1350px !important; 
-                margin: -70px 380px !important; 
+                margin: -70px 0 !important; 
             }
             
             .footer .row {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                margin-left: 400px !important;
             }
             
             .footer-col{
@@ -16500,6 +16500,8 @@ img .logoone {
     color: #7900d1 !important;
 }
         }
+
+
 
         @media screen and (min-width: 2560px) {
 
@@ -16620,26 +16622,28 @@ img .logoone {
                 position: absolute;
               }
        
-               footer .container{
-    max-width: 1700px !important;
-    margin-left: 600px !important;
-  }
+
 
   .footer .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 500px !important;
+    margin-top: -50px !important;
 }
 
   .footer{
-    background-color: #22003B;
+    /* background-color: #22003B; */
       padding: 70px 0;
       margin-top: -350px !important;
   }
 
   .footer-col{
      width: 25% !important; 
-     padding: 0 15px;
+  }
+  
+  .footer .container{
+    padding: 70px 0 !important;
   }
   
 
