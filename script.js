@@ -159,3 +159,28 @@ function updateDots(activeIndex) {
     });
 
 
+// Toggler process //
+document.addEventListener("DOMContentLoaded", function() {
+    const navbarToggler = document.querySelector(".custom-toggler");
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+
+    navbarToggler.addEventListener("click", function() {
+        navbarCollapse.classList.toggle("show");
+    });
+
+    // Close navbar when clicking outside
+    document.addEventListener("click", function(event) {
+        const isClickInside = navbarToggler.contains(event.target) || navbarCollapse.contains(event.target);
+        if (!isClickInside && navbarCollapse.classList.contains("show")) {
+            navbarCollapse.classList.remove("show");
+        }
+    });
+
+    // Close navbar when clicking a nav link
+    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+    navLinks.forEach(link => {
+        link.addEventListener("click", function() {
+            navbarCollapse.classList.remove("show");
+        });
+    });
+});
