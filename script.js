@@ -1,12 +1,12 @@
 
-
+// Toggler proccess conect with nav-links //
 
 document.addEventListener("DOMContentLoaded", function() {
     const navDots = document.querySelectorAll(".nav-dot");
     const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
     const sections = document.querySelectorAll("section");
-    const navbarToggler = document.querySelector(".custom-toggler"); // Select the navbar toggler
-    const navbarCollapse = document.querySelector(".navbar-collapse"); // Select the navbar collapse
+    const navbarToggler = document.querySelector(".custom-toggler"); 
+    const navbarCollapse = document.querySelector(".navbar-collapse"); 
 
     function removeHoverClass() {
         navDots.forEach(dot => dot.classList.remove("hover"));
@@ -163,6 +163,7 @@ function updateDots(activeIndex) {
 document.addEventListener("DOMContentLoaded", function() {
     const navbarToggler = document.querySelector(".custom-toggler");
     const navbarCollapse = document.querySelector(".navbar-collapse");
+    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
 
     navbarToggler.addEventListener("click", function() {
         navbarCollapse.classList.toggle("show");
@@ -176,11 +177,23 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    // Close navbar when clicking a nav link
-    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+    // Smooth scrolling for nav links
     navLinks.forEach(link => {
-        link.addEventListener("click", function() {
-            navbarCollapse.classList.remove("show");
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href");
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                navbarCollapse.classList.remove("show");
+                
+                window.scrollTo({
+                    top: targetElement.offsetTop - 70, // Adjust this value based on your navbar height
+                    behavior: "smooth"
+                });
+            }
         });
     });
 });
+
+
