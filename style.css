@@ -5543,13 +5543,13 @@ transform: scale(1.1);
     .image-section .imgthree {
         width: 110% !important;
         margin-left: 90px !important;
-        margin-top: 50px;
+        margin-top: 30px;
         }
         
         .text-section h2.four {
         margin-left: 560px !important; 
         font-size: 4em !important;
-        margin-top: 30px !important;
+        margin-top: -30px !important;
         font-family: Poppins;
         font-weight: medium;
         width: 50% !important;
@@ -6863,7 +6863,7 @@ font-weight: bold;
 
    
     .text-section .impcontentone{
-        margin-top: 40px !important;
+        margin-top: 10px !important;
         font-family: Poppins;
         font-weight: bold;
         font-size: 5rem !important;
@@ -6896,7 +6896,7 @@ font-weight: bold;
             overflow: hidden;
             background-color: rgba(255, 255, 255, 0);
             margin-left: 150px !important;
-            margin-top: 20px;
+            margin-top: -10px;
             position: relative;
             box-sizing: border-box;
         }
@@ -8915,13 +8915,13 @@ font-weight: bold;
         width: 70%;
         height: auto;
         margin-left: 40px;
-        margin-top: 30px !important;
+        margin-top: -10px !important;
     }
     
     .text-section .fiveone{
-        font-size: 80px !important;
+    font-size: 80px !important;
     color: #ffffff;
-    margin-top: 70px;
+    margin-top: 30px;
     font-family: Poppins;
     font-weight: bold;
     margin-left: 100px !important;
@@ -8954,7 +8954,7 @@ font-weight: bold;
     
     .bottom-hr {
         border: 1px solid #ddd;
-        margin-top: -40px;
+        margin-top: -60px;
         width: 950px;
         margin-left: 120px;
     }
@@ -8963,7 +8963,7 @@ font-weight: bold;
         display: flex;
         justify-content: space-around;
         position: relative;
-        top: -20px;
+        top: -40px;
         right: 15px;
     }
     
