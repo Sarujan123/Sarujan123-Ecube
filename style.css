@@ -1099,7 +1099,7 @@ html {
 }
 
 .carousel {
-    overflow: hidden;
+    overflow: hidden !important;
     margin-top: -20px;
     margin-left: -180px; /* Adjusted for proper alignment */
     width: 100%; /* Adjusted for responsiveness */
@@ -3938,7 +3938,6 @@ font-weight: medium;
 
 .thirdpara {
 margin-right: 150px !important;
-
 padding: 0;
 font-size: 0.7em !important;
 line-height: 0.1em !important;
@@ -4167,6 +4166,7 @@ transform: scale(1.1);
         line-height: 0.2em !important;
         text-align: center !important;
         margin-left: 50px !important;
+
     }
     .hover-buttons {
         display: grid;
@@ -4758,7 +4758,7 @@ transform: scale(1.1);
         margin-left: 100px !important;
         font-size: 3.6em !important;
         margin-top: 70px !important;
-        width: 200% !important;
+        width: 180% !important;
     }
     .text-section h2 .arttwo {
         height: 20px;
@@ -4964,7 +4964,7 @@ transform: scale(1.1);
         margin-left: 110px !important;
         font-size: 3.6em !important;
         margin-top: 200px !important;
-        width: 200% !important;
+        width: 180% !important;
     }
     .text-section h2 .arttwo {
         height: 20px;
@@ -5630,15 +5630,15 @@ transform: scale(1.1);
 @media screen and (min-width: 1026px) and (max-width: 1439px) {
 
     .image-section .imgthree {
-        width: 110% !important;
+        width: 130% !important;
         margin-left: 90px !important;
-        margin-top: 30px;
+        margin-top: -40px !important;
         }
         
         .text-section h2.four {
         margin-left: 560px !important; 
         font-size: 4em !important;
-        margin-top: -30px !important;
+        margin-top: -10px !important;
         font-family: Poppins;
         font-weight: medium;
         width: 50% !important;
@@ -6952,7 +6952,7 @@ font-weight: bold;
 
    
     .text-section .impcontentone{
-        margin-top: 10px !important;
+        margin-top: -25px !important;
         font-family: Poppins;
         font-weight: bold;
         font-size: 5rem !important;
@@ -6985,7 +6985,7 @@ font-weight: bold;
             overflow: hidden;
             background-color: rgba(255, 255, 255, 0);
             margin-left: 150px !important;
-            margin-top: -10px;
+            margin-top: 1px;
             position: relative;
             box-sizing: border-box;
         }
@@ -7524,8 +7524,6 @@ font-weight: bold;
 
 /* Media queries */
 @media screen and (max-width: 320px) {
-
-
     .image-section .imgfour {
         width: 100% !important;
         margin-left: 0 !important;
@@ -7631,7 +7629,7 @@ font-weight: bold;
     }
     
     .card-two {
-        width: 300px;
+        width: 280px;
         height: auto;
         color: #ffffff;
         background-color: transparent;
@@ -7655,7 +7653,7 @@ font-weight: bold;
     }
     
     .card-four {
-        width: 300px;
+        width: 280px;
         height: auto;
         color: #ffffff;
         background-color: transparent;
@@ -7688,7 +7686,7 @@ font-weight: bold;
 
     .hthree-two {
         font-size: 12px; ; 
-        margin-left: 150px;
+        margin-left: 130px;
         margin-top: -15px;
     }
 
@@ -12696,7 +12694,7 @@ font-weight: bold;
     .text-section .digitlone {
         font-size: 4.3rem !important;
         margin-left: -50px !important;
-        margin-top: 30px;
+        margin-top: -30px;
         font-family: Poppins;
         font-weight: bold;
     }
@@ -12716,7 +12714,7 @@ font-weight: bold;
         justify-content: space-around;
         width: 90%;
         margin-left: 80px !important;
-        margin-top: 230px !important;
+        margin-top: 170px !important;
     }
     
     .pricing-card {
@@ -12827,7 +12825,7 @@ font-weight: bold;
     
     .image-section .imgfive {
         width: 15% !important;
-        margin-top: 38px !important;
+        margin-top: -25px !important;
         margin-left: 850px !important;
         position: absolute !important;
     }
@@ -13650,14 +13648,14 @@ font-weight: Regular;
 
    .swiper-container {
         height: 80vh !important; 
-        width: 98% !important;
+        width: 96% !important;
         overflow: hidden !important; 
       }
     
       .swiper-slide {
         flex-direction: column-reverse;
         width: 100% !important;
-        height: 60vh !important; 
+        height: 70vh !important; 
         transform: none; 
         transition: none;
         margin-top: 10px !important;
@@ -13796,14 +13794,14 @@ font-weight: Regular;
   @media screen and (min-width: 321px) and (max-width: 374px) {
     .swiper-container {
         height: 80vh !important; 
-        width: 95% !important;
+        width: 92% !important;
         overflow: hidden !important; 
       }
     
       .swiper-slide {
         flex-direction: column-reverse;
         width: 100%;
-        height: 60vh !important; 
+        height: 70vh !important; 
         transform: none; 
         transition: none;
         margin-top: 10px !important;
@@ -13948,7 +13946,7 @@ font-weight: Regular;
       .swiper-slide {
         flex-direction: column-reverse;
         width: 100%;
-        height: 60vh !important; 
+        height: 70vh !important; 
         transform: none; 
         transition: none;
         margin-top: 20px !important;
@@ -14082,15 +14080,15 @@ font-weight: Regular;
   @media screen and (min-width: 390px) and (max-width: 424px) {
 
     .swiper-container {
-        height: 80vh !important; 
-        width: 100% !important;
+        height: 90vh !important; 
+        width: 95% !important;
         overflow: hidden !important; 
       }
     
       .swiper-slide {
         flex-direction: column-reverse;
         width: 90%;
-        height: 60vh !important; 
+        height: 70vh !important; 
         transform: none; 
         transition: none;
         margin-top: 10px !important;
@@ -14233,7 +14231,7 @@ font-weight: Regular;
       .swiper-slide {
         flex-direction: column-reverse;
         width: 100%;
-        height: 60vh !important; 
+        height: 70vh !important; 
         transform: none; 
         transition: none;
         margin-top: 10px !important;
