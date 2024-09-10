@@ -10017,6 +10017,7 @@ font-weight: bold;
 
     .scrolling-content {
         width: 400%;
+        animation: scroll 150s linear infinite;
     }
 
     .profile {
@@ -10108,6 +10109,7 @@ font-weight: bold;
 
     .scrolling-content {
         width: 400%;
+        animation: scroll 150s linear infinite;
     }
 
     .profile {
@@ -10198,6 +10200,7 @@ font-weight: bold;
 
     .scrolling-content {
         width: 400%;
+        animation: scroll 150s linear infinite;
     }
 
     .profile {
@@ -10288,6 +10291,7 @@ font-weight: bold;
 
     .scrolling-content {
         width: 500% !important;
+        animation: scroll 150s linear infinite;
     }
 
     .profile {
@@ -10378,6 +10382,7 @@ font-weight: bold;
 
     .scrolling-content {
         width: 400%;
+        animation: scroll 150s linear infinite;
     }
 
     .profile {
@@ -10470,6 +10475,7 @@ font-weight: bold;
 
     .scrolling-content {
         width: 400% !important; 
+        animation: scroll 150s linear infinite;
     }
 
     .profile {
@@ -10679,6 +10685,7 @@ font-weight: bold;
 
     .scrolling-content {
         width: 400% !important; 
+        animation: scroll 150s linear infinite;
     }
 
     .profile {
@@ -10916,6 +10923,7 @@ font-weight: bold;
 
     .scrolling-content {
         width: 400% !important; 
+        animation: scroll 150s linear infinite;
     }
     
     
