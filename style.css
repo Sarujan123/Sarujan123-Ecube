@@ -14728,7 +14728,7 @@ font-weight: Regular;
         background-position: center;
         background-size: cover;
         width: 120%!important;
-        height: 100vh !important;
+        height: 120vh !important;
         transform-style: preserve-3d;
         transition: transform 0.5s;
         color: #000000;

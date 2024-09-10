@@ -175,10 +175,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!isClickInside && navbarCollapse.classList.contains("show")) {
             navbarCollapse.classList.remove("show");
         }
-    });
-
-    // Smooth scrolling for nav links
-   
+    }); 
 });
 
 
