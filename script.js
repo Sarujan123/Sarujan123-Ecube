@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function collapseNavbar() {
         if (navbarToggler && navbarCollapse.classList.contains("show")) {
-            navbarToggler.click(); // Trigger the click event to collapse the navbar
+            navbarToggler.click(); 
         }
     }
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector(section).scrollIntoView({
                 behavior: "smooth"
             });
-            collapseNavbar(); // Collapse the navbar after clicking a nav-link
+            collapseNavbar(); 
         });
     });
 
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector(section).scrollIntoView({
                 behavior: "smooth"
             });
-            collapseNavbar(); // Collapse the navbar after clicking a dot
+            collapseNavbar(); 
         });
     });
 
@@ -178,22 +178,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Smooth scrolling for nav links
-    navLinks.forEach(link => {
-        link.addEventListener("click", function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute("href");
-            const targetElement = document.querySelector(targetId);
-            
-            if (targetElement) {
-                navbarCollapse.classList.remove("show");
-                
-                window.scrollTo({
-                    top: targetElement.offsetTop - 70, // Adjust this value based on your navbar height
-                    behavior: "smooth"
-                });
-            }
-        });
-    });
+   
 });
 
 

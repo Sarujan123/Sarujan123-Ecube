@@ -5632,13 +5632,13 @@ transform: scale(1.1);
     .image-section .imgthree {
         width: 130% !important;
         margin-left: 90px !important;
-        margin-top: -40px !important;
+        margin-top: 40px !important;
         }
         
         .text-section h2.four {
         margin-left: 560px !important; 
         font-size: 4em !important;
-        margin-top: -10px !important;
+        margin-top: 50px !important;
         font-family: Poppins;
         font-weight: medium;
         width: 50% !important;
@@ -5657,7 +5657,7 @@ transform: scale(1.1);
         .text-section h2.five span {
         font-size: 1em;
         margin-left: 550px !important;
-        margin-top: -30px !important;
+        margin-top: -20px !important;
         font-family: poppins;
         font-weight: medium;
         }
@@ -6952,7 +6952,7 @@ font-weight: bold;
 
    
     .text-section .impcontentone{
-        margin-top: -25px !important;
+        margin-top: 30px !important;
         font-family: Poppins;
         font-weight: bold;
         font-size: 5rem !important;
@@ -9002,13 +9002,13 @@ font-weight: bold;
         width: 70%;
         height: auto;
         margin-left: 40px;
-        margin-top: -10px !important;
+        margin-top: 30px !important;
     }
     
     .text-section .fiveone{
     font-size: 80px !important;
     color: #ffffff;
-    margin-top: 30px;
+    margin-top: 80px;
     font-family: Poppins;
     font-weight: bold;
     margin-left: 100px !important;
@@ -9041,7 +9041,7 @@ font-weight: bold;
     
     .bottom-hr {
         border: 1px solid #ddd;
-        margin-top: -60px;
+        margin-top: -40px;
         width: 950px;
         margin-left: 120px;
     }
@@ -9050,7 +9050,7 @@ font-weight: bold;
         display: flex;
         justify-content: space-around;
         position: relative;
-        top: -40px;
+        top: -18px;
         right: 15px;
     }
     
@@ -12694,7 +12694,7 @@ font-weight: bold;
     .text-section .digitlone {
         font-size: 4.3rem !important;
         margin-left: -50px !important;
-        margin-top: -30px;
+        margin-top: 30px;
         font-family: Poppins;
         font-weight: bold;
     }
@@ -12714,7 +12714,7 @@ font-weight: bold;
         justify-content: space-around;
         width: 90%;
         margin-left: 80px !important;
-        margin-top: 170px !important;
+        margin-top: 230px !important;
     }
     
     .pricing-card {
@@ -12825,7 +12825,7 @@ font-weight: bold;
     
     .image-section .imgfive {
         width: 15% !important;
-        margin-top: -25px !important;
+        margin-top: 35px !important;
         margin-left: 850px !important;
         position: absolute !important;
     }
